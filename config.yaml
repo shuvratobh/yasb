@@ -43,7 +43,7 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>\ue62a</span>"
+      label: "<font color='#00e5ff'>\ue62a</font>"
       menu_labels:
         about: "\ue66A  About This PC"
         system: "\uF423  System Settings"
@@ -55,13 +55,13 @@ widgets:
         lock: "\uea75   Lock"
       
       menu_list:
-        
+        - { title: "🗑️  Clear Recycle Bin", path: "C:\\Users\\shuvr\\.config\\yasb\\clear_recycle_bin.bat" }
         - { title: "🗂  X DRIVE", path: "X:\\" }
         - { title: "🎬  Movies", path: "X:\\Movie\\" }
         - { title: "🍥  Anime", path: "X:\\ANIME\\" }
        
       system_menu: true
-      power_menu: true
+      power_menu: false
       blur: true
       border_color: "System"
       round_corners_type: "normal"

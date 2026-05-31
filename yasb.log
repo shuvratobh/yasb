@@ -3060,3 +3060,887 @@ KeyError: 'toggle_traffic_menu'
 2026-05-31 19:58:27,784 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
 2026-05-31 19:58:27,785 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
 2026-05-31 19:58:27,785 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 19:58:28,055 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 19:58:28,055 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 19:58:28,558 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 19:58:28,558 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 19:58:28,590 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 19:58:28,590 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 19:58:28,946 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 19:58:29,274 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 2 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 19:58:29,588 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 19:58:29,592 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 19:58:29,593 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 19:58:29,644 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 19:58:29,644 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 19:58:29,645 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 19:58:29,812 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 19:58:29,819 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 19:58:29,961 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 19:58:29,987 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 19:58:29.987605
+2026-05-31 19:58:30,004 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 19:58:30,162 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2099346
+2026-05-31 19:58:30,170 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:08:28,332 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:08:28.332818
+2026-05-31 20:11:28,882 [INFO] [MainThread] [root/window_actions.py:225]: Successfully ended task via forced EndTask for HWND: 2951356
+2026-05-31 20:11:30,763 [INFO] [MainThread] [root/window_actions.py:225]: Successfully ended task via forced EndTask for HWND: 67988
+2026-05-31 20:11:32,731 [INFO] [MainThread] [root/window_actions.py:225]: Successfully ended task via forced EndTask for HWND: 395228
+2026-05-31 20:18:28,372 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:18:28.372583
+2026-05-31 20:19:39,091 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:19:39,192 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:19:39,192 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:19:39,199 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:19:39,315 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:19:39,318 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:19:39,320 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:19:39,321 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:19:39,323 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2099346
+2026-05-31 20:19:39,388 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:19:39,395 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:19:39,397 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:19:39,412 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2099346
+2026-05-31 20:19:39,795 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:19:39,795 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:19:39,796 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:19:40,079 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:19:40,080 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:19:40,569 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:19:40,569 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:19:40,603 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:19:40,603 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:19:40,959 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:19:41,240 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:19:41,365 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:19:41,369 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:19:41,371 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:19:41,427 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:19:41,427 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:19:41,428 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:19:41,686 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:19:41,693 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:19:41,850 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:19:41,851 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:19:41.851417
+2026-05-31 20:19:42,051 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 590782
+2026-05-31 20:19:42,054 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:19:42,060 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:25:29,698 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:25:29,799 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:25:29,800 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:25:29,810 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:25:29,939 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:25:29,942 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:25:29,948 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:25:29,948 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:25:29,949 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 590782
+2026-05-31 20:25:29,958 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:25:29,966 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:25:29,967 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:25:29,980 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 590782
+2026-05-31 20:25:30,453 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:25:30,454 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:25:30,454 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:25:30,762 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:25:30,762 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:25:31,241 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:25:31,241 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:25:31,273 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:25:31,273 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:25:31,585 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:25:31,820 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:25:31,947 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:25:31,953 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:25:31,954 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:25:32,017 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:25:32,018 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:25:32,019 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:25:32,208 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:25:32,215 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:25:32,359 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:25:32,381 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:25:32.381917
+2026-05-31 20:25:32,560 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1770922
+2026-05-31 20:25:32,563 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:25:32,568 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:25:42,723 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:25:42,829 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:25:42,829 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:25:42,835 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:25:42,936 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:25:42,937 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:25:42,942 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:25:42,943 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:25:42,944 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1770922
+2026-05-31 20:25:42,957 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:25:42,970 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:25:42,971 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:25:42,975 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1770922
+2026-05-31 20:25:43,371 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:25:43,371 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:25:43,371 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:25:43,682 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:25:43,682 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:25:44,165 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:25:44,165 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:25:44,194 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:25:44,194 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:25:44,493 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:25:44,750 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:25:44,902 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:25:44,912 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:25:44,913 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:25:44,986 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:25:44,986 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:25:44,987 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:25:45,179 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:25:45,186 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:25:45,330 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:25:45.330538
+2026-05-31 20:25:45,346 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:25:45,547 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1050752
+2026-05-31 20:25:45,550 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:25:45,555 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:29:39,294 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:29:39,395 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:29:39,395 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:29:39,401 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:29:39,506 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:29:39,510 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:29:39,512 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:29:39,512 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:29:39,514 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1050752
+2026-05-31 20:29:39,522 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:29:39,522 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:29:39,524 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:29:39,534 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1050752
+2026-05-31 20:29:39,947 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:29:39,947 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:29:39,948 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:29:40,224 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:29:40,224 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:29:40,705 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:29:40,705 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:29:40,742 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:29:40,743 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:29:41,088 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:29:41,349 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:29:41,472 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:29:41,478 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:29:41,480 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:29:41,543 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:29:41,543 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:29:41,544 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:29:41,720 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:29:41,728 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:29:41,867 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:29:41,963 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:29:41.962974
+2026-05-31 20:29:42,068 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1901994
+2026-05-31 20:29:42,071 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:29:42,076 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:30:05,578 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:30:08,033 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:30:20,674 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:30:27,257 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:31:39,579 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:31:47,176 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:31:47,283 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:31:47,283 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:31:47,355 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:31:47,468 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:31:47,469 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:31:47,473 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:31:47,473 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:31:47,475 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1901994
+2026-05-31 20:31:47,490 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:31:47,526 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:31:47,546 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:31:47,563 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1901994
+2026-05-31 20:31:47,999 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:31:48,000 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:31:48,000 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:31:48,303 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:31:48,303 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:31:48,803 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:31:48,804 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:31:48,843 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:31:48,843 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:31:49,170 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:31:49,433 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:31:49,535 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:31:49,539 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:31:49,541 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:31:49,601 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:31:49,601 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:31:49,602 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:31:49,810 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:31:49,817 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:31:49,959 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:31:49,976 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:31:49.976512
+2026-05-31 20:31:49,992 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:31:50,194 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 3147386
+2026-05-31 20:31:50,204 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:31:54,625 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:about'
+2026-05-31 20:31:56,753 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:about'
+2026-05-31 20:31:58,577 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:'
+2026-05-31 20:32:02,377 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:32:03,569 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec powershell.exe -WindowStyle Hidden -Command Clear-RecycleBin -Force -ErrorAction SilentlyContinue'
+2026-05-31 20:32:09,177 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:about'
+2026-05-31 20:32:17,377 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:32:18,617 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:about'
+2026-05-31 20:32:19,793 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:'
+2026-05-31 20:33:35,159 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:33:35,264 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:33:35,264 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:33:35,272 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:33:35,372 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:33:35,373 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:33:35,376 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:33:35,377 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:33:35,379 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 3147386
+2026-05-31 20:33:35,408 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:33:35,415 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:33:35,417 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:33:35,424 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 3147386
+2026-05-31 20:33:35,868 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:33:35,868 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:33:35,869 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:33:36,137 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:33:36,137 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:33:36,631 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:33:36,631 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:33:36,672 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:33:36,672 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:33:36,990 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:33:37,225 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:33:37,325 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:33:37,329 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:33:37,331 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      
+2026-05-31 20:33:37,372 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:33:37,424 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:33:37,424 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:33:37,425 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:33:37,589 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:33:37,597 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:33:37,860 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:33:37,871 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:33:37,914 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:33:37.914150
+2026-05-31 20:33:38,072 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1115710
+2026-05-31 20:33:38,080 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:34:31,811 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:34:31,918 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:34:31,918 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:34:31,968 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:34:32,061 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:34:32,061 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:34:32,065 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:34:32,066 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:34:32,068 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1115710
+2026-05-31 20:34:32,080 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:34:32,090 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:34:32,093 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:34:32,101 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1115710
+2026-05-31 20:34:32,500 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:34:32,501 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:34:32,501 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:34:32,780 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:34:32,780 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:34:33,276 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:34:33,276 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:34:33,307 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:34:33,307 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:34:33,620 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:34:33,836 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:34:33,976 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:34:33,981 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:34:33,982 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      
+2026-05-31 20:34:34,022 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:34:34,079 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:34:34,080 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:34:34,081 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:34:34,288 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:34:34,295 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:34:34,551 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:34:34,555 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:34:34,585 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:34:34.585836
+2026-05-31 20:34:34,752 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1050546
+2026-05-31 20:34:34,761 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:34:55,854 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:34:55,955 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:34:55,955 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:34:55,963 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:34:56,092 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:34:56,092 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:34:56,094 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:34:56,095 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:34:56,097 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1050546
+2026-05-31 20:34:56,114 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:34:56,118 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:34:56,119 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:34:56,127 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1050546
+2026-05-31 20:34:56,589 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:34:56,590 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:34:56,590 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:34:56,863 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:34:56,863 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:34:57,336 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:34:57,337 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:34:57,371 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:34:57,372 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:34:57,679 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:34:57,897 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:34:58,033 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:34:58,038 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:34:58,039 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      
+2026-05-31 20:34:58,077 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:34:58,129 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:34:58,129 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:34:58,130 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:34:58,301 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:34:58,309 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:34:58,567 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:34:58.567575
+2026-05-31 20:34:58,572 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:34:58,586 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:34:58,787 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 788394
+2026-05-31 20:34:58,794 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:36:45,630 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:36:45,736 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:36:45,736 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:36:45,792 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:36:45,892 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:36:45,893 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:36:45,895 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:36:45,896 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:36:45,897 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 788394
+2026-05-31 20:36:45,908 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:36:45,922 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:36:45,924 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:36:45,934 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 788394
+2026-05-31 20:36:46,383 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:36:46,383 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:36:46,383 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:36:46,657 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:36:46,658 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:36:47,124 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:36:47,124 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:36:47,161 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:36:47,161 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:36:47,500 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:36:47,740 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:36:47,866 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:36:47,872 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:36:47,874 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:36:47,945 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:36:47,945 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:36:47,946 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:36:48,146 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:36:48,154 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:36:48,309 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:36:48,311 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:36:48.311008
+2026-05-31 20:36:48,511 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2885282
+2026-05-31 20:36:48,514 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:36:48,520 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:36:52,145 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'C:\Users\shuvr\.config\yasb\OpenRecycleBin.lnk'
+2026-05-31 20:36:54,082 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'C:\Users\shuvr\.config\yasb\EmptyRecycleBin.lnk'
+2026-05-31 20:38:35,339 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:38:35,448 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:38:35,448 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:38:35,455 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:38:35,554 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:38:35,555 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:38:35,557 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:38:35,558 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:38:35,559 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2885282
+2026-05-31 20:38:35,575 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:38:35,588 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:38:35,589 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:38:35,596 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2885282
+2026-05-31 20:38:36,023 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:38:36,024 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:38:36,024 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:38:36,314 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:38:36,314 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:38:36,816 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:38:36,816 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:38:36,847 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:38:36,847 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:38:37,180 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:38:37,419 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:38:37,565 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:38:37,569 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:38:37,573 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:38:37,645 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:38:37,646 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:38:37,647 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:38:37,883 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:38:37,890 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:38:38,027 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:38:38.027804
+2026-05-31 20:38:38,042 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:38:38,242 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 5440786
+2026-05-31 20:38:38,245 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:38:38,250 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:38:41,569 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:38:46,945 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'ms-settings:'
+2026-05-31 20:38:49,497 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'ms-settings:about'
+2026-05-31 20:38:50,882 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'ms-settings:'
+2026-05-31 20:38:52,522 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'ms-settings:about'
+2026-05-31 20:39:01,232 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'ms-settings:about'
+2026-05-31 20:39:02,440 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'ms-settings:'
+2026-05-31 20:39:03,450 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'shell:RecycleBinFolder'
+2026-05-31 20:40:24,489 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:40:24,601 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:40:24,601 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:40:24,607 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:40:24,696 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:40:24,697 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:40:24,699 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:40:24,699 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:40:24,701 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5440786
+2026-05-31 20:40:24,716 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:40:24,720 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:40:24,722 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:40:24,731 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5440786
+2026-05-31 20:40:25,154 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:40:25,155 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:40:25,155 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:40:25,430 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:40:25,430 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:40:25,909 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:40:25,910 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:40:25,941 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:40:25,941 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:40:26,233 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:40:26,453 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:40:26,588 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:40:26,592 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:40:26,594 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:40:26,653 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:40:26,653 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:40:26,654 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:40:26,833 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:40:26,840 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:40:26,979 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:40:27,009 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:40:27.009051
+2026-05-31 20:40:27,180 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 5113436
+2026-05-31 20:40:27,183 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:40:27,188 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:40:28,658 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:about'
+2026-05-31 20:40:30,362 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:'
+2026-05-31 20:40:32,569 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:'
+2026-05-31 20:40:42,782 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:40:42,896 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:40:42,896 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:40:42,902 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:40:42,976 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:40:42,977 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:40:42,979 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:40:42,980 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:40:42,981 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5113436
+2026-05-31 20:40:42,994 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:40:43,003 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:40:43,005 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:40:43,014 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5113436
+2026-05-31 20:40:43,409 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:40:43,409 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:40:43,410 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:40:43,669 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:40:43,669 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:40:44,121 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:40:44,121 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:40:44,149 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:40:44,149 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:40:44,438 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:40:44,655 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:40:44,797 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:40:44,801 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:40:44,802 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:40:44,862 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:40:44,862 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:40:44,864 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:40:45,066 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:40:45,073 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:40:45,202 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:40:45.202853
+2026-05-31 20:40:45,217 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:40:45,418 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1509242
+2026-05-31 20:40:45,421 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:40:45,425 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:40:46,409 [ERROR] [MainThread] [root/home.py:83]: The system cannot find the file specified: 'exec ms-settings:'
+2026-05-31 20:41:27,192 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\shuvr\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 425, column 9
+expected <block end>, but found '<scalar>'
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 426, column 62
+2026-05-31 20:41:27,230 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\shuvr\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 424, column 9
+expected <block end>, but found '<scalar>'
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 425, column 62
+2026-05-31 20:41:27,270 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:41:27,381 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:41:27,381 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:41:27,416 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:41:27,519 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:41:27,519 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:41:27,612 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:41:27,615 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:41:27,729 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:41:27,730 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:41:27,733 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:41:27,733 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:41:27,736 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509242
+2026-05-31 20:41:27,761 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:41:27,766 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:41:27,769 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:41:27,777 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1509242
+2026-05-31 20:41:28,189 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:41:28,189 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:41:28,189 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:41:28,190 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:41:28,190 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:41:28,190 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2026-05-31 20:41:28,437 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:41:28,437 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:41:28,887 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:41:28,888 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:41:28,917 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:41:28,917 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:41:29,227 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:41:29,472 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:41:29,604 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:41:29,608 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:41:29,609 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:41:29,662 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:41:29,662 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:41:29,664 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:41:29,838 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:41:29,845 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:41:29,976 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:41:30,008 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:41:30.008943
+2026-05-31 20:41:30,177 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2426784
+2026-05-31 20:41:30,179 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:41:30,185 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:41:38,202 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2026-05-31 20:43:39,657 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\shuvr\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 48, column 9
+expected <block end>, but found '<scalar>'
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 52, column 21
+2026-05-31 20:43:47,259 [INFO] [MainThread] [root/controller.py:15]: Reloading Bar from context menu...
+2026-05-31 20:43:47,361 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:43:47,361 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:43:47,471 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:43:47,472 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:43:47,475 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:43:47,476 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:43:47,477 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2426784
+2026-05-31 20:43:47,490 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:43:47,494 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:43:47,495 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:43:47,504 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2426784
+2026-05-31 20:43:47,897 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:43:47,897 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:43:47,898 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:43:47,917 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\shuvr\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 48, column 9
+expected <block end>, but found '<scalar>'
+  in "C:\Users\shuvr\.config\yasb\config.yaml", line 52, column 21
+2026-05-31 20:43:47,918 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2026-05-31 20:44:06,937 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:44:06,938 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:44:06,938 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:44:07,195 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:07,195 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:07,651 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:07,651 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:07,683 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:07,683 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:07,979 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:44:08,193 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:44:08,331 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:44:08,336 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:44:08,337 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      
+2026-05-31 20:44:08,369 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:44:08,412 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:44:08,412 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:44:08,413 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:44:08,593 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:44:08,602 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:44:08,889 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:44:08,889 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:44:08,959 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:44:08.959077
+2026-05-31 20:44:09,105 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 5637394
+2026-05-31 20:44:09,114 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:44:26,483 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:44:26,591 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:44:26,591 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:44:26,597 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:44:26,676 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:44:26,677 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:44:26,679 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:44:26,680 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:44:26,681 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5637394
+2026-05-31 20:44:26,692 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:44:26,717 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:44:26,718 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:44:26,727 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5637394
+2026-05-31 20:44:27,110 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:44:27,111 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:44:27,111 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:44:27,373 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:27,373 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:27,836 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:27,837 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:27,865 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:27,865 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:28,130 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:44:28,324 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:44:28,479 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:44:28,483 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:44:28,485 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      menu_labels:
+      - menu_list:
+        - unknown field
+      
+2026-05-31 20:44:28,520 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:44:28,565 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:44:28,566 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:44:28,567 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:44:28,736 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:44:28,744 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:44:29,018 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:44:29.018652
+2026-05-31 20:44:29,022 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:44:29,035 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:44:29,236 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1902568
+2026-05-31 20:44:29,245 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:44:57,833 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:44:57,947 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:44:57,948 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:44:57,952 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:44:58,032 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:44:58,033 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:44:58,036 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:44:58,037 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:44:58,038 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1902568
+2026-05-31 20:44:58,054 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:44:58,057 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:44:58,059 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:44:58,068 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1902568
+2026-05-31 20:44:58,466 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:44:58,467 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:44:58,467 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:44:58,722 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:58,722 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:59,156 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:59,156 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:59,184 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:44:59,184 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:44:59,454 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:44:59,667 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:44:59,799 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:44:59,805 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:44:59,806 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      
+2026-05-31 20:44:59,845 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:44:59,898 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:44:59,898 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:44:59,900 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:45:00,076 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:45:00,084 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:45:00,345 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:45:00,345 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:45:00.345902
+2026-05-31 20:45:00,348 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:45:00,545 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1443754
+2026-05-31 20:45:00,556 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:46:35,339 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:46:35,442 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:46:35,442 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:46:35,447 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:46:35,535 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:46:35,536 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:46:35,538 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:46:35,539 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:46:35,540 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1443754
+2026-05-31 20:46:35,552 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:46:35,556 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:46:35,557 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:46:35,563 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1443754
+2026-05-31 20:46:35,985 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:46:35,985 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:46:35,986 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:46:36,257 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:46:36,257 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:46:36,730 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:46:36,730 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:46:36,761 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:46:36,761 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:46:37,073 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:46:37,340 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:46:37,520 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:46:37,528 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:46:37,529 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      
+2026-05-31 20:46:37,564 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:46:37,615 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:46:37,616 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:46:37,617 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:46:37,792 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:46:37,799 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:46:38,048 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:46:38,049 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:46:38.049038
+2026-05-31 20:46:38,053 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:46:38,249 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1836920
+2026-05-31 20:46:38,258 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:46:45,785 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:46:45,886 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:46:45,887 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:46:45,892 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:46:45,989 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:46:45,990 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:46:45,991 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:46:45,992 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:46:45,993 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1836920
+2026-05-31 20:46:46,004 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:46:46,005 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:46:46,006 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:46:46,015 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1836920
+2026-05-31 20:46:46,450 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:46:46,451 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:46:46,452 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:46:46,719 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:46:46,719 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:46:47,184 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:46:47,184 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:46:47,218 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:46:47,218 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:46:47,530 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:46:47,736 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:46:47,887 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:46:47,892 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:46:47,894 [ERROR] [MainThread] [root/widget_builder.py:100]: Failed to validate widget(s) due to invalid options  - home
+      callbacks:
+      - on_middle:
+        - unknown field
+        on_right:
+        - unknown field
+      
+2026-05-31 20:46:47,942 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:46:47,995 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:46:47,995 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:46:47,997 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:46:48,176 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:46:48,183 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:46:48,434 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:46:48,437 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:46:48,635 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2754492
+2026-05-31 20:46:48,643 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:46:49,080 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:46:49.079986
+2026-05-31 20:47:13,445 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:47:13,550 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:47:13,550 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:47:13,565 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:47:13,685 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:47:13,686 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:47:13,689 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:47:13,689 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:47:13,691 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2754492
+2026-05-31 20:47:13,706 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:47:13,712 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:47:13,714 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:47:13,722 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2754492
+2026-05-31 20:47:14,133 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:47:14,134 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:47:14,134 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:47:14,410 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:47:14,410 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:47:14,881 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:47:14,881 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:47:14,912 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:47:14,913 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:47:15,219 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:47:15,447 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:47:15,592 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:47:15,600 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:47:15,602 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:47:15,688 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:47:15,688 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:47:15,690 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:47:15,880 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:47:15,887 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:47:16,007 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:47:16,041 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:47:16,105 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:47:16.104944
+2026-05-31 20:47:16,242 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 4262024
+2026-05-31 20:47:16,249 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
+2026-05-31 20:47:58,014 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-05-31 20:47:58,115 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-05-31 20:47:58,115 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-05-31 20:47:58,121 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-05-31 20:47:58,198 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2026-05-31 20:47:58,198 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-05-31 20:47:58,200 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-05-31 20:47:58,201 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:47:58,202 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4262024
+2026-05-31 20:47:58,213 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-05-31 20:47:58,217 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-05-31 20:47:58,218 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-05-31 20:47:58,227 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4262024
+2026-05-31 20:47:58,607 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-05-31 20:47:58,607 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-05-31 20:47:58,608 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-05-31 20:47:58,858 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:47:58,858 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:47:59,284 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:47:59,284 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:47:59,313 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-05-31 20:47:59,313 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-05-31 20:47:59,578 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-05-31 20:47:59,790 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-05-31 20:47:59,934 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-05-31 20:47:59,938 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-05-31 20:47:59,940 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-05-31 20:47:59,992 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-05-31 20:47:59,992 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-05-31 20:47:59,993 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-05-31 20:48:00,184 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-05-31 20:48:00,193 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-05-31 20:48:00,329 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-05-31 20:48:00,356 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-31 20:48:00.356949
+2026-05-31 20:48:00,530 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2426662
+2026-05-31 20:48:00,533 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-05-31 20:48:00,538 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49354
