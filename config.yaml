@@ -1,0 +1,424 @@
+watch_stylesheet: true
+watch_config: true
+debug: false
+bars:
+  status-bar:
+    enabled: true
+    screens: ["*"]
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: false
+    blur_effect:
+      enabled: true
+      dark_mode: true
+      round_corners: false
+      border_color: None
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 25
+    widgets:
+      left: ["home", "taskbar"]
+      center: ["weather", "clock_weekday", "clock_time", "clock_day"]
+      right:
+        [
+          "todo",
+          "pomodoro",
+          "media",
+          "systray",
+          "traffic",
+          "disk",
+          "cpu",
+          "memory",
+          "brightness",
+          "volume",
+          "settings",
+          "notifications",
+          "power_menu",
+        ]
+widgets:
+  home:
+    type: "yasb.home.HomeWidget"
+    options:
+      label: "<span>\ue62a</span>"
+      menu_labels:
+        about: "\ue66A  About This PC"
+        system: "\uF423  System Settings"
+        task_manager: "\uf437  Task Manager"
+        hibernate: "\uf28e  Hibernate"
+        sleep: "\u23fe   Sleep"
+        restart: "\uead2   Restart"
+        shutdown: "\uf011   Shutdown"
+        lock: "\uea75   Lock"
+      
+      menu_list:
+        
+        - { title: "🗂  X DRIVE", path: "X:\\" }
+        - { title: "🎬  Movies", path: "X:\\Movie\\" }
+        - { title: "🍥  Anime", path: "X:\\ANIME\\" }
+       
+      system_menu: true
+      power_menu: true
+      blur: true
+      border_color: "System"
+      round_corners_type: "normal"
+  notes:
+    type: "yasb.notes.NotesWidget"
+    options:
+      label: "<font color='#FFD166'>\uf044</font> {count}"
+      label_alt: "Notes: {count}"
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+  todo:
+    type: "yasb.todo.TodoWidget"
+    options:
+      label: "<font color='#4ecdc4'>\uf046</font> {count}"
+      label_alt: "{completed}/{total} Tasks"
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+
+  pomodoro:
+    type: "yasb.pomodoro.PomodoroWidget"
+    options:
+      label: "<font color='#ff7bac'>\uf017</font> {remaining}"
+      label_alt: "Work: {remaining}"
+      work_duration: 25
+      break_duration: 5
+      callbacks:
+        on_left: "toggle_menu"
+        on_right: "toggle_label"
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+
+  clock_weekday:
+    type: "yasb.clock.ClockWidget"
+    options:
+      class_name: "clock-weekday"
+      label: "{<font color='#ff7bac'>%a</font>}"
+      locale: "en_EN"
+      timezones: ["Chattogram, Bangladesh"]
+      callbacks:
+        on_left: "do_nothing"
+        on_middle: "do_nothing"
+        on_right: "do_nothing"
+
+  clock_time:
+    type: "yasb.clock.ClockWidget"
+    options:
+      class_name: "clock-time"
+      label: "{%I:%M %p}"
+      locale: "en_EN"
+      timezones: ["Chattogram, Bangladesh"]
+      callbacks:
+        on_left: "do_nothing"
+        on_middle: "next_timezone"
+        on_right: "exec cmd.exe /c start ms-clock:"
+
+  clock_day:
+    type: "yasb.clock.ClockWidget"
+    options:
+      class_name: "clock-day"
+      label: "{<font color='#7dcfff'>%d %b</font>}"
+      locale: "en_EN"
+      timezones: ["Chattogram, Bangladesh"]
+      callbacks:
+        on_middle: "do_nothing"
+        on_right: "do_nothing"
+      calendar:
+        blur: True
+        round_corners: True
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "center"
+        direction: "down"
+        show_holidays: true
+        show_week_numbers: true
+        country_code: ""
+        holiday_color: "#FF6464"
+
+  weather:
+    type: "yasb.weather.WeatherWidget"
+    options:
+      class_name: "weather"
+      label: "<span style='font-size: 12px;'>{icon}</span> <span style='font-size: 14px; font-weight: 1000;'>{temp}</span>"
+      label_alt: "<span>{icon}</span> {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
+      api_key: "6ce6e12b6746466396975230262101" # Get your free API key from https://www.weatherapi.com/
+      update_interval: 600 # Update interval in seconds, Min 600 seconds
+      hide_decimal: true
+      location: "Chittagong" # You can use just the city name if the zip code resolves incorrectly.
+      callbacks:
+        on_left: "toggle_card"
+        on_middle: "toggle_label"
+        on_right: "exec cmd.exe /c start msnweather:"
+      icons:
+        sunnyDay: "☀️"
+        clearNight: "🌙"
+        cloudyDay: "⛅"
+        cloudyNight: "☁️"
+        rainyDay: "🌧️"
+        rainyNight: "🌧️"
+        snowyIcyDay: "❄️"
+        snowyIcyNight: "❄️"
+        blizzardDay: "🌨️"
+        blizzardNight: "🌨️"
+        foggyDay: "☁️"
+        foggyNight: "☁️🌃"
+        thunderstormDay: "⛈️"
+        thunderstormNight: "⛈️"
+        default: "🌡️"
+      weather_card:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        icon_size: 96
+        show_hourly_forecast: true # Set to False to disable hourly forecast
+        time_format: "24h" # can be 12h or 24h
+        hourly_point_spacing: 90
+        hourly_icon_size: 48 # better to set 16, 32 or 64 for better quality
+        icon_smoothing: true # should be true for smoother icon or false for sharper icon if using 16, 32 or 64 for hourly_icon_size
+        temp_line_width: 4 # can be 0 to hide the temperature line
+  volume:
+    type: "yasb.volume.VolumeWidget"
+    options:
+      label: "{icon} {level}"
+      # label_alt: "{volume}"
+      tooltip: false
+      volume_icons:
+        - "<font color='#00bfff'>\ueee8</font>" # Icon for muted
+        - "<font color='#00bfff'>\uf026</font>" # Icon for 0-10% volume
+        - "<font color='#00bfff'>\uf027</font>" # Icon for 11-30% volume
+        - "<font color='#00bfff'>\uf027</font>" # Icon for 31-60% volume
+        - "<font color='#00bfff'>\uf028</font>" # Icon for 61-100% volume
+      callbacks:
+        on_middle: "toggle_mute"
+        on_right: "exec cmd.exe /c start ms-settings:sound"
+      audio_menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "center"
+        direction: "down"
+  power_menu:
+    type: "yasb.power_menu.PowerMenuWidget"
+    options:
+      label: "<font color='#ff1744'>\uf011</font>"
+      uptime: True
+      blur: False
+      blur_background: True
+      animation_duration: 300 # Milisecond
+      button_row: 3 # Number of buttons in row, min 1 max 5
+      buttons:
+        lock: ["\uea75", "Lock"]
+        signout: ["\udb80\udf43", "Sign out"]
+        shutdown: ["\uf011", "Shut Down"]
+        restart: ["\uead2", "Restart"]
+        hibernate: ["\uf28e", "Hibernate"]
+        cancel: ["\udb81\udf3a", "Cancel"]
+  settings:
+    type: "yasb.applications.ApplicationsWidget"
+    options:
+      label: "{data}"
+      app_list:
+        - { icon: "<font color='#ffffff'>\ue690</font>", launch: "quick_settings" }
+  notifications:
+    type: "yasb.notifications.NotificationsWidget"
+    options:
+      label: "<font color='#ffea00'>\udb80\udd78</font> {count}"
+      tooltip: false
+      callbacks:
+        on_left: "toggle_notification"
+        on_right: "do_nothing"
+        on_middle: "do_nothing"
+  
+  cpu:
+    type: "yasb.cpu.CpuWidget"
+    options:
+      label: "<font color='#ff007f'>\uf4bc</font> {info[percent][total]:>4.1f}%"
+      label_alt: "<font color='#ff007f'>\uf4bc</font> {info[freq][current]} Mhz {info[histograms][cores]}"
+      update_interval: 2000
+      cpu_thresholds:
+        low: 25
+        medium: 50
+        high: 90
+      histogram_icons:
+        - "\u2581" # 0%
+        - "\u2581" # 10%
+        - "\u2582" # 20%
+        - "\u2583" # 30%
+        - "\u2584" # 40%
+        - "\u2585" # 50%
+        - "\u2586" # 60%
+        - "\u2587" # 70%
+        - "\u2588" # 80%+
+      histogram_num_columns: 8
+      callbacks:
+        on_left: "do_nothing"
+        on_middle: "toggle_label"
+        on_right: "exec cmd /c Taskmgr"
+  memory:
+    type: "yasb.memory.MemoryWidget"
+    options:
+      label: "<font color='#b620e0'>\uefc5</font> {virtual_mem_used}"
+      label_alt: "<font color='#b620e0'>\uefc5</font> VIRT: {virtual_mem_percent}% SWAP: {swap_mem_percent}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "do_nothing"
+        on_middle: "toggle_label"
+        on_right: "exec cmd /c Taskmgr"
+      memory_thresholds:
+        low: 25
+        medium: 50
+        high: 90
+  
+  taskbar:
+    type: "yasb.taskbar.TaskbarWidget"
+    options:
+      icon_size: 16
+      tooltip: false
+      show_only_visible: false
+      strict_filtering: false
+      monitor_exclusive: false
+      animation:
+        enabled: true
+      preview:
+        enabled: true
+        width: 450
+        delay: 400
+        padding: 12
+      ignore_apps:
+        processes: []
+        titles: []
+        classes: []
+  systray:
+    type: "yasb.systray.SystrayWidget"
+    options:
+      class_name: "systray"
+      label_collapsed: "◀"
+      label_expanded: "▶"
+      label_position: "right" # Can be "left" or "right"
+      icon_size: 15 # Can be any integer between 8 and 64
+      pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
+      show_unpinned: false
+      show_unpinned_button: true
+      show_battery: false
+      show_volume: false
+      show_network: false
+  media:
+    type: "yasb.media.MediaWidget"
+    options:
+      label: "{title} - {artist}"
+      label_alt: ""
+      hide_empty: true
+      callbacks:
+        on_left: "toggle_media_menu"
+        on_middle: "exec cmd.exe /c echo %TIME% - %USERNAME% >> %USERPROFILE%\\Music\\yasb_favorites.txt"
+
+        on_right: "do_nothing"
+      max_field_size:
+        label: 15
+        label_alt: 15
+      show_thumbnail: false
+      controls_only: false
+      controls_left: true
+      controls_hide: false
+      thumbnail_alpha: 80
+      thumbnail_padding: 8
+      thumbnail_corner_radius: 16
+      icons:
+        prev_track: "\ue892"
+        next_track: "\ue893"
+        play: "\ue768"
+        pause: "\ue769"
+      media_menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        thumbnail_corner_radius: 8
+        thumbnail_size: 120
+        max_title_size: 90
+        max_artist_size: 40
+        show_source: true
+        show_volume_slider: true
+        
+      media_menu_icons:
+        play: "\ue768"
+        pause: "\ue769"
+        prev_track: "\ue892"
+        next_track: "\ue893"
+      scrolling_label:
+        enabled: false
+        update_interval_ms: 13
+        style: "left" # can be "left", "right", "bounce", "bounce-ease"
+        separator: "    |    "
+        label_padding: 10
+
+  disk:
+    type: "yasb.custom.CustomWidget"
+    options:
+      class_name: "disk"
+      label: "<font color='#ff9100'>\uf0a0</font> {data[c]}G"
+      label_alt: "<font color='#ff9100'>\uf0a0</font> C:{data[c]}G X:{data[x]}G"
+      exec_options:
+        run_cmd: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File C:\Users\shuvr\.config\yasb\disk_info.ps1'
+        return_format: "json"
+        run_interval: 60000
+      callbacks:
+        on_left: "toggle_label"
+        on_right: "exec cmd.exe /c explorer =,"
+
+  brightness:
+    type: "yasb.brightness.BrightnessWidget"
+    options:
+      label: "<span style=\"font-size: 13px; font-family: 'Segoe Fluent Icons'; color: #4ecdc4;\">\ue706</span> {percent}%"
+      label_alt: "Bri: {percent}%"
+      tooltip: true
+      scroll_step: 5
+      callbacks:
+        on_left: "do_nothing"
+        
+  traffic:
+    type: "yasb.traffic.TrafficWidget"
+    options:
+      speed_unit: "bytes"
+      label: "<font color='#00e5ff'>\u2193</font> {download_speed} <font color='#00e5ff'>\u2191</font> {upload_speed}"
+      label_alt: "NET: {download_speed} <font color='#00e5ff'>\u2193</font> / {upload_speed} <font color='#00e5ff'>\u2191</font>"
+      update_interval: 1000
+      hide_if_offline: false
+      callbacks:
+        on_left: "toggle_traffic_menu"
+        on_right: "exec cmd.exe /c start ms-settings:network"
