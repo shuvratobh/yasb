@@ -4,14 +4,14 @@
   --font-name-icons: "Segoe Fluent Icons";
   --text-primary: #f8f9fa;
   --text-secondary: rgba(248, 249, 250, 0.6);
-  --text-small: 12px;
-  --text-normal: 14px;
-  --text-lg: 16px;
-  --text-xl: 18px;
-  --text-2xl: 24px;
-  --text-3xl: 30px;
-  --text-5xl: 48px;
-  --text-6xl: 64px;
+  --text-small: 11px;
+  --text-normal: 12px;
+  --text-lg: 14px;
+  --text-xl: 16px;
+  --text-2xl: 20px;
+  --text-3xl: 26px;
+  --text-5xl: 42px;
+  --text-6xl: 56px;
   --font-normal: 400;
   --font-bold: 600;
   --font-bold-xl: 900;
@@ -117,18 +117,79 @@
   font-weight: var(--font-bold);
 }
 
-/* Clock */
+/* Clock Pills */
+.clock-time,
+.clock-weekday,
+.clock-day {
+  background-color: rgba(15, 18, 24, 0.9);
+  padding: 0px 6px !important;
+  margin: 3px 2px !important;
+  border-radius: 8px;
+}
+
+/* Time (Teal) */
+.clock-time {
+  border: 1px solid rgba(78, 205, 196, 0.4);
+}
+
+.clock-time .label {
+  color: #4ecdc4;
+}
+
+/* Weekday (Pink) */
+.clock-weekday {
+  border: 1px solid rgba(255, 123, 172, 0.4);
+}
+
+/* Day (Blue) */
+.clock-day {
+  border: 1px solid rgba(125, 207, 255, 0.4);
+}
+
+/* Bright Text with Stroke */
 .clock-weekday .label,
+.clock-time .label,
 .clock-day .label {
-  font-size: 14px;
-  font-weight: 1000;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 0px !important;
+  text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.9),
+    1px -1px 0 rgba(0, 0, 0, 0.9),
+    -1px 1px 0 rgba(0, 0, 0, 0.9),
+    1px 1px 0 rgba(0, 0, 0, 0.9),
+    0px 3px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Home */
 .home-widget {}
 
 .home-widget .icon {
-  font-size: var(--text-lg);
+  font-size: 20px;
+}
+
+/* Recycle Bin */
+.recycle-bin-widget {
+  padding: 0 5px;
+}
+
+.recycle-bin-widget .label {
+  font-size: var(--text-normal);
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  padding: 0 2px;
+}
+
+.recycle-bin-widget .label font {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+  padding-right: 2px;
+}
+
+.recycle-bin-widget:hover {
+  background-color: var(--bg-hover-primary);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .home-menu {
@@ -162,7 +223,7 @@
 
 /* Specifically target the emoji inside the weather label */
 .weather-widget .label span {
-  font-size: 11px;
+  font-size: 10px;
   /* Scaled down to match other icons */
   font-weight: 400;
   /* Emojis don't need bold weight */
@@ -484,8 +545,11 @@
 }
 
 /* Launchpad */
-.launchpad-widget .icon {
-  font-size: var(--text-2xl);
+.launchpad-widget .icon,
+.launchpad-widget .label {
+  font-size: 20px !important;
+  color: #00e5ff !important;
+  padding-bottom: 3px !important;
 }
 
 /* Launchpad context menu style */
@@ -685,12 +749,12 @@
 
 .launchpad .app-icon {
   border-radius: var(--radius-normal);
-  padding-top: 20px;
-  margin: 6px 4px 4px 5px;
+  padding-top: 15px;
+  margin: 15px;
   max-width: 110px;
-  min-width: 5px;
-  min-height: 5px;
-  max-height: 5px;
+  min-width: 110px;
+  min-height: 110px;
+  max-height: 110px;
 }
 
 .launchpad .app-icon:focus {
@@ -1058,6 +1122,7 @@
   margin: 0;
   font-family: var(--font-name-icons);
   font-weight: var(--font-normal);
+
 }
 
 .media-widget .btn:hover {
@@ -1521,7 +1586,7 @@ QMenu::separator,
 /* Bright Clock with Heavy Shadow */
 .clock-widget .label {
   font-family: var(--font-name-primary);
-  font-size: 16px;
+  font-size: var(--text-normal);
   font-weight: 800;
   letter-spacing: 1px;
   text-shadow:
@@ -1533,9 +1598,7 @@ QMenu::separator,
     0px 0px 10px rgba(0, 0, 0, 1.0);
 }
 
-/* Custom Clock Widgets Styling (Slanted Shape) */
-.clock-weekday,
-.clock-day,
+/* Custom Clock Widgets Styling */
 .clock-time {
   border: none;
   background-color: transparent;
@@ -1544,8 +1607,6 @@ QMenu::separator,
   margin: 0 !important;
 }
 
-.clock-weekday:hover,
-.clock-day:hover,
 .clock-time:hover {
   background-color: transparent;
   border: none;
@@ -1553,26 +1614,50 @@ QMenu::separator,
 }
 
 .clock-weekday {
-  padding: 0 0 0 2px;
+  background-color: rgba(255, 123, 172, 0.15);
+  /* Light Pink */
+  border: 1px solid rgba(255, 123, 172, 0.4);
+  padding: 0 10px;
+  margin: 1px 4px;
+  border-radius: 6px;
+}
+
+.clock-weekday .label {
+  color: #ffb8d2;
+  text-shadow: 0 0 8px rgba(255, 123, 172, 0.4);
 }
 
 .clock-day {
-  padding: 0 2px 0 0;
+  background-color: rgba(163, 191, 250, 0.15);
+  /* Light Blue */
+  border: 1px solid rgba(163, 191, 250, 0.4);
+  padding: 0 10px;
+  margin: 1px 4px;
+  border-radius: 6px;
+}
+
+.clock-day .label {
+  color: #d1e0ff;
+  text-shadow: 0 0 8px rgba(163, 191, 250, 0.4);
 }
 
 .clock-time {
-  background-color: transparent;
-  border-image: url('C:/Users/shuvr/.config/yasb/time_bg.svg') 0 11 0 11 stretch stretch;
-  border-width: 0 11px 0 11px;
-  padding: 0 2px;
-  margin: 0 2px;
-  border-radius: 0;
+  background-color: rgba(78, 205, 196, 0.15);
+  /* Light Teal */
+  border: 1px solid rgba(78, 205, 196, 0.4);
+  padding: 0 10px;
+  margin: 1px 4px;
+  border-radius: 6px;
+  border-image: none;
 }
 
 .clock-time .label {
-  color: #0a1016;
-  font-weight: 800;
-  text-shadow: none;
+  color: #8ce8e1;
+  /* Pastel Teal */
+  font-weight: 900;
+  font-size: var(--text-normal);
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px rgba(78, 205, 196, 0.4);
 }
 
 /* Premium Todo Menu Styling */
@@ -1811,4 +1896,16 @@ PomodoroWidget,
 #todo,
 #pomodoro {
   padding: 0 4px;
+}
+
+/* Hide Media Play/Pause Buttons */
+.media-widget .btn.play,
+.media-widget .btn.pause {
+  max-width: 0px !important;
+  max-height: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: none !important;
+  color: transparent !important;
+  font-size: 0px !important;
 }

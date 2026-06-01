@@ -19,12 +19,13 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 25
+      height: 28
     widgets:
-      left: ["home", "taskbar"]
-      center: ["weather", "clock_weekday", "clock_time", "clock_day"]
+      left: ["home", "clock_time", "clock_weekday", "clock_day", "taskbar"]
+      center: ["launchpad"]
       right:
-        [
+        [ 
+          "weather",
           "todo",
           "pomodoro",
           "media",
@@ -36,10 +37,22 @@ bars:
           "brightness",
           "volume",
           "settings",
-          "notifications",
+           "recycle_bin",
           "power_menu",
         ]
 widgets:
+  recycle_bin:
+    type: "yasb.recycle_bin.RecycleBinWidget"
+    options:
+      label: "{icon}"
+      label_alt: "{icon} {items_count} ({items_size})"
+      icons:
+        bin_empty: "<font color='#4ecdc4'>\udb82\ude7a</font>"
+        bin_filled: "<font color='#ff4757'>\udb82\ude79</font>"
+      callbacks:
+        on_left: "exec explorer shell:RecycleBinFolder"
+        on_right: "empty_bin"
+        on_middle: "do_nothing"
   home:
     type: "yasb.home.HomeWidget"
     options:
@@ -55,10 +68,14 @@ widgets:
         lock: "\uea75   Lock"
       
       menu_list:
-        - { title: "🗑️  Clear Recycle Bin", path: "C:\\Users\\shuvr\\.config\\yasb\\clear_recycle_bin.bat" }
-        - { title: "🗂  X DRIVE", path: "X:\\" }
-        - { title: "🎬  Movies", path: "X:\\Movie\\" }
-        - { title: "🍥  Anime", path: "X:\\ANIME\\" }
+
+        - { title: "\uf0a0  X DRIVE", path: "X:\\" }
+        - { title: "\uf008  Movies", path: "X:\\Movie\\" }
+        - { title: "\uf03e  MPV Screenshots", path: "X:\\Screenshots\\" }
+        - { title: "\uf26c  Anime", path: "X:\\ANIME\\" }
+        - { title: "\uf167  YouTube", path: "C:\\Users\\shuvr\\.config\\yasb\\open_youtube.bat" }
+        - { title: "\uf076  TorrentBD", path: "C:\\Users\\shuvr\\.config\\yasb\\open_torrentbd.bat" }
+        - { title: "\uf145  Letterboxd", path: "C:\\Users\\shuvr\\.config\\yasb\\open_letterboxd.bat" }
        
       system_menu: true
       power_menu: false
@@ -136,7 +153,7 @@ widgets:
       locale: "en_EN"
       timezones: ["Chattogram, Bangladesh"]
       callbacks:
-        on_left: "do_nothing"
+        on_left: "exec python C:\\Users\\shuvr\\.config\\yasb\\cycle_color.py"
         on_middle: "next_timezone"
         on_right: "exec cmd.exe /c start ms-clock:"
 
@@ -166,8 +183,8 @@ widgets:
     type: "yasb.weather.WeatherWidget"
     options:
       class_name: "weather"
-      label: "<span style='font-size: 12px;'>{icon}</span> <span style='font-size: 14px; font-weight: 1000;'>{temp}</span>"
-      label_alt: "<span>{icon}</span> {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
+      label: "<font color='#f9d423'>\uf2c9</font> {temp}"
+      label_alt: "<font color='#f9d423'>\uf2c9</font> {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
       api_key: "6ce6e12b6746466396975230262101" # Get your free API key from https://www.weatherapi.com/
       update_interval: 600 # Update interval in seconds, Min 600 seconds
       hide_decimal: true
@@ -219,6 +236,7 @@ widgets:
         - "<font color='#00bfff'>\uf027</font>" # Icon for 31-60% volume
         - "<font color='#00bfff'>\uf028</font>" # Icon for 61-100% volume
       callbacks:
+        on_left: "toggle_volume_menu"
         on_middle: "toggle_mute"
         on_right: "exec cmd.exe /c start ms-settings:sound"
       audio_menu:
@@ -340,50 +358,28 @@ widgets:
       label_alt: ""
       hide_empty: true
       callbacks:
-        on_left: "toggle_media_menu"
-        on_middle: "exec cmd.exe /c echo %TIME% - %USERNAME% >> %USERPROFILE%\\Music\\yasb_favorites.txt"
-
-        on_right: "do_nothing"
+        on_left: "toggle_label"
+        on_middle: "do_nothing"
+        on_right: "toggle_play_pause"
       max_field_size:
-        label: 15
-        label_alt: 15
-      show_thumbnail: false
+        label: 100
+        label_alt: 100
+      show_thumbnail: true
       controls_only: false
       controls_left: true
       controls_hide: false
-      thumbnail_alpha: 80
-      thumbnail_padding: 8
-      thumbnail_corner_radius: 16
+      thumbnail_alpha: 100
+      thumbnail_padding: 4
+      thumbnail_corner_radius: 8
       icons:
         prev_track: "\ue892"
         next_track: "\ue893"
-        play: "\ue768"
-        pause: "\ue769"
-      media_menu:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: "system"
-        alignment: "center"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
-        thumbnail_corner_radius: 8
-        thumbnail_size: 120
-        max_title_size: 90
-        max_artist_size: 40
-        show_source: true
-        show_volume_slider: true
-        
-      media_menu_icons:
-        play: "\ue768"
-        pause: "\ue769"
-        prev_track: "\ue892"
-        next_track: "\ue893"
+        play: ""
+        pause: ""
       scrolling_label:
-        enabled: false
-        update_interval_ms: 13
-        style: "left" # can be "left", "right", "bounce", "bounce-ease"
+        enabled: true
+        update_interval_ms: 20
+        style: "left"
         separator: "    |    "
         label_padding: 10
 
@@ -404,7 +400,7 @@ widgets:
   brightness:
     type: "yasb.brightness.BrightnessWidget"
     options:
-      label: "<span style=\"font-size: 13px; font-family: 'Segoe Fluent Icons'; color: #4ecdc4;\">\ue706</span> {percent}%"
+      label: "<span style=\"font-size: 12px; font-family: 'Segoe Fluent Icons'; color: #4ecdc4;\">\ue706</span> {percent}%"
       label_alt: "Bri: {percent}%"
       tooltip: true
       scroll_step: 5
@@ -419,6 +415,35 @@ widgets:
       label_alt: "NET: {download_speed} <font color='#00e5ff'>\u2193</font> / {upload_speed} <font color='#00e5ff'>\u2191</font>"
       update_interval: 1000
       hide_if_offline: false
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
       callbacks:
-        on_left: "toggle_traffic_menu"
+        on_left: "toggle_menu"
+        on_middle: "toggle_label"
         on_right: "exec cmd.exe /c start ms-settings:network"
+  launchpad:
+    type: "yasb.launchpad.LaunchpadWidget"
+    options:
+      label: "<span style='font-size: 26px; color: #00e5ff'>\udb85\uddfc</span>"
+      search_placeholder: "Search apps..."
+      app_icon_size: 64
+      window:
+        fullscreen: false
+        width: 880
+        height: 700
+        overlay_block: true
+      window_style:
+        enable_blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+      window_animation:
+        fade_in_duration: 200
+        fade_out_duration: 200
+      callbacks:
+        on_left: "toggle_launchpad"

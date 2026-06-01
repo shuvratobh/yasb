@@ -1,0 +1,51 @@
+[
+  {
+    "title": "mpv",
+    "path": "C:\\Users\\shuvr\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\mpv.lnk",
+    "icon": "C:\\Users\\shuvr\\.config\\yasb\\launchpad\\icons\\mpv_1780332200670.png",
+    "type": "app",
+    "id": 1780332200671
+  },
+  {
+    "title": "YASB",
+    "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\YASB.lnk",
+    "icon": "C:\\Users\\shuvr\\.config\\yasb\\launchpad\\icons\\yasb_1780329225453.png",
+    "type": "app",
+    "id": 1780329225453
+  },
+  {
+    "title": "qBittorrent",
+    "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\qBittorrent\\qBittorrent.lnk",
+    "icon": "C:\\Users\\shuvr\\.config\\yasb\\launchpad\\icons\\qbittorrent_1780334036810.png",
+    "type": "app",
+    "id": 1780334036810
+  },
+  {
+    "title": "Foxit PDF Reader",
+    "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Foxit PDF Reader\\Foxit PDF Reader.lnk",
+    "icon": "C:\\Users\\shuvr\\.config\\yasb\\launchpad\\icons\\foxit_pdf_reader_1780334074346.png",
+    "type": "app",
+    "id": 1780334074348
+  },
+  {
+    "title": "Helium",
+    "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Helium.lnk",
+    "icon": "C:\\Users\\shuvr\\.config\\yasb\\launchpad\\icons\\helium_1780334091753.png",
+    "type": "app",
+    "id": 1780334091754
+  },
+  {
+    "title": "Word",
+    "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Word.lnk",
+    "icon": "C:\\Users\\shuvr\\.config\\yasb\\launchpad\\icons\\word_1780334435434.png",
+    "type": "app",
+    "id": 1780334435435
+  },
+  {
+    "title": "Excel",
+    "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Excel.lnk",
+    "icon": "C:\\Users\\shuvr\\.config\\yasb\\launchpad\\icons\\excel_1780334462602.png",
+    "type": "app",
+    "id": 1780334462603
+  }
+]

@@ -5,7 +5,7 @@
     "description": "thats it the title",
     "category": "important",
     "created_at": "2026-06-01T20:50:35.497377",
-    "completed": false,
+    "completed": true,
     "order": 0
   }
 ]

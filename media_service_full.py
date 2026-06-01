@@ -335,6 +335,10 @@ class WindowsMedia(QObject, metaclass=QSingleton):
         """Play/pause the current session"""
         try:
             if self.current_session and self.current_session.session is not None:
+                # Optimistically update state so the icon changes instantly
+                self.current_session.is_playing = not self.current_session.is_playing
+                self.playback_info_changed.emit()
+                
                 await self.current_session.session.try_toggle_play_pause_async()
         except Exception as e:
             logger.error("Error playing/pausing: %s", e)

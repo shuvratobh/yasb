@@ -117,19 +117,55 @@
   font-weight: var(--font-bold);
 }
 
-/* Clock */
+/* Clock Pills */
+.clock-time,
+.clock-weekday,
+.clock-day {
+  background-color: rgba(15, 18, 24, 0.9);
+  padding: 0px 6px !important;
+  margin: 3px 2px !important;
+  border-radius: 8px;
+}
+
+/* Time (Teal) */
+.clock-time {
+  border: 1px solid rgba(78, 205, 196, 0.4);
+}
+
+.clock-time .label {
+  color: #4ecdc4;
+}
+
+/* Weekday (Pink) */
+.clock-weekday {
+  border: 1px solid rgba(255, 123, 172, 0.4);
+}
+
+/* Day (Blue) */
+.clock-day {
+  border: 1px solid rgba(125, 207, 255, 0.4);
+}
+
+/* Bright Text with Stroke */
 .clock-weekday .label,
 .clock-time .label,
 .clock-day .label {
-  font-weight: 900; /* Extra bold */
-  letter-spacing: 0.5px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 0px !important;
+  text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.9),
+    1px -1px 0 rgba(0, 0, 0, 0.9),
+    -1px 1px 0 rgba(0, 0, 0, 0.9),
+    1px 1px 0 rgba(0, 0, 0, 0.9),
+    0px 3px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Home */
 .home-widget {}
 
 .home-widget .icon {
-  font-size: var(--text-lg);
+  font-size: 20px;
 }
 
 /* Recycle Bin */
@@ -509,8 +545,11 @@
 }
 
 /* Launchpad */
-.launchpad-widget .icon {
-  font-size: var(--text-2xl);
+.launchpad-widget .icon,
+.launchpad-widget .label {
+  font-size: 20px !important;
+  color: #00e5ff !important;
+  padding-bottom: 3px !important;
 }
 
 /* Launchpad context menu style */
@@ -710,12 +749,12 @@
 
 .launchpad .app-icon {
   border-radius: var(--radius-normal);
-  padding-top: 20px;
-  margin: 6px 4px 4px 5px;
+  padding-top: 15px;
+  margin: 15px;
   max-width: 110px;
-  min-width: 5px;
-  min-height: 5px;
-  max-height: 5px;
+  min-width: 110px;
+  min-height: 110px;
+  max-height: 110px;
 }
 
 .launchpad .app-icon:focus {
@@ -1083,6 +1122,7 @@
   margin: 0;
   font-family: var(--font-name-icons);
   font-weight: var(--font-normal);
+
 }
 
 .media-widget .btn:hover {
@@ -1574,7 +1614,8 @@ QMenu::separator,
 }
 
 .clock-weekday {
-  background-color: rgba(255, 123, 172, 0.15); /* Light Pink */
+  background-color: rgba(255, 123, 172, 0.15);
+  /* Light Pink */
   border: 1px solid rgba(255, 123, 172, 0.4);
   padding: 0 10px;
   margin: 1px 4px;
@@ -1587,7 +1628,8 @@ QMenu::separator,
 }
 
 .clock-day {
-  background-color: rgba(163, 191, 250, 0.15); /* Light Blue */
+  background-color: rgba(163, 191, 250, 0.15);
+  /* Light Blue */
   border: 1px solid rgba(163, 191, 250, 0.4);
   padding: 0 10px;
   margin: 1px 4px;
@@ -1600,7 +1642,8 @@ QMenu::separator,
 }
 
 .clock-time {
-  background-color: rgba(78, 205, 196, 0.15); /* Light Teal */
+  background-color: rgba(78, 205, 196, 0.15);
+  /* Light Teal */
   border: 1px solid rgba(78, 205, 196, 0.4);
   padding: 0 10px;
   margin: 1px 4px;
@@ -1609,7 +1652,8 @@ QMenu::separator,
 }
 
 .clock-time .label {
-  color: #8ce8e1; /* Pastel Teal */
+  color: #8ce8e1;
+  /* Pastel Teal */
   font-weight: 900;
   font-size: var(--text-normal);
   letter-spacing: 1px;
@@ -1852,4 +1896,16 @@ PomodoroWidget,
 #todo,
 #pomodoro {
   padding: 0 4px;
+}
+
+/* Hide Media Play/Pause Buttons */
+.media-widget .btn.play,
+.media-widget .btn.pause {
+  max-width: 0px !important;
+  max-height: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: none !important;
+  color: transparent !important;
+  font-size: 0px !important;
 }
