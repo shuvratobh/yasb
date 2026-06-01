@@ -21,8 +21,8 @@ bars:
       width: "100%"
       height: 28
     widgets:
-      left: ["home", "clock_time", "clock_weekday", "clock_day", "taskbar"]
-      center: ["launchpad"]
+      left: ["home", "clock_time", "launchpad",]
+      center: ["taskbar"]
       right:
         [ 
           "weather",
@@ -148,14 +148,25 @@ widgets:
   clock_time:
     type: "yasb.clock.ClockWidget"
     options:
-      class_name: "clock-time"
-      label: "{%I:%M %p}"
+      class_name: "clock-clean"
+      label: "{%a %d %b  %I:%M %p}"
       locale: "en_EN"
       timezones: ["Chattogram, Bangladesh"]
       callbacks:
-        on_left: "exec python C:\\Users\\shuvr\\.config\\yasb\\cycle_color.py"
-        on_middle: "next_timezone"
+        on_left: "toggle_calendar"
+        on_middle: "exec python C:\\Users\\shuvr\\.config\\yasb\\cycle_color.py"
         on_right: "exec cmd.exe /c start ms-clock:"
+      calendar:
+        blur: True
+        round_corners: True
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "center"
+        direction: "down"
+        show_holidays: true
+        show_week_numbers: true
+        country_code: ""
+        holiday_color: "#FF6464"
 
   clock_day:
     type: "yasb.clock.ClockWidget"
@@ -429,7 +440,7 @@ widgets:
   launchpad:
     type: "yasb.launchpad.LaunchpadWidget"
     options:
-      label: "<span style='font-size: 26px; color: #00e5ff'>\udb85\uddfc</span>"
+      label: "<font color='#FFD700'>\uf002</font>"
       search_placeholder: "Search apps..."
       app_icon_size: 64
       window:

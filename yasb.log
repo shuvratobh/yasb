@@ -6702,3 +6702,1293 @@ expected ',' or ']', but got '<scalar>'
 2026-06-01 23:35:09,989 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
 2026-06-01 23:35:09,991 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
 2026-06-01 23:35:10,008 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 5966106
+2026-06-01 23:35:10,507 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:35:10,507 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:35:10,508 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:35:10,694 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:35:10,694 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:35:11,271 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:35:11,271 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:35:11,309 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:35:11,309 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:35:11,872 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-01 23:35:12,161 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-01 23:35:12,462 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-01 23:35:12,467 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-01 23:35:12,526 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-01 23:35:12,526 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-01 23:35:12,527 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-01 23:35:12,693 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:35:12,700 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-01 23:35:12,951 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-01 23:35:13,067 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:35:13,116 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-01 23:35:13.116009
+2026-06-01 23:35:13,161 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 7211300
+2026-06-01 23:35:13,165 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-01 23:35:13,171 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-01 23:35:13,444 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:14,255 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:15,065 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:15,875 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:16,701 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:17,498 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:18,312 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:19,125 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:19,958 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:20,754 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:21,563 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:22,376 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:23,205 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:24,012 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:24,835 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:25,646 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:26,463 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:27,266 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:28,075 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:28,895 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:29,714 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:30,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:31,327 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:32,141 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:32,959 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:33,770 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:34,576 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:35,389 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:36,223 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:37,035 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:37,850 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:38,655 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:39,476 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:40,279 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:41,091 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:41,915 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:42,726 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:43,535 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:44,347 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:45,155 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:45,983 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:46,779 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:47,596 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:48,412 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:49,223 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:50,033 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:50,843 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:51,653 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:52,484 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:53,285 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:54,095 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:54,909 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:55,724 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:56,531 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:57,340 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:58,155 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:58,980 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:35:59,784 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:00,594 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:01,415 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:02,223 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:03,035 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:03,851 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:04,655 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:05,484 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:06,289 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:07,095 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:07,913 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:08,725 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:09,531 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:10,341 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:11,155 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:11,984 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:12,787 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:13,595 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:14,407 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:15,226 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:16,030 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:16,840 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:17,655 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:18,485 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:19,285 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:20,095 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:20,905 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:21,725 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:22,535 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:23,346 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:24,155 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:24,984 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:25,787 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:26,595 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:27,412 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:28,225 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:29,031 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:29,856 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:30,675 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:31,502 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:32,315 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:33,132 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:33,935 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:34,761 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:35,564 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:36,376 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:37,187 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:38,020 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:38,835 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:39,651 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:40,453 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:41,282 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:42,095 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:42,913 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:43,724 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:44,538 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:45,344 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:46,154 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:46,975 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:47,792 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:48,593 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:49,416 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:50,215 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:51,043 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:51,850 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:52,655 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:53,473 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:54,297 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:55,095 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:55,912 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:56,715 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:57,540 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:58,350 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:59,155 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:36:59,969 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:00,789 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:01,590 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:02,412 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:03,225 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:04,044 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:04,848 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:05,655 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:06,469 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:07,302 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:08,106 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:08,931 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:09,735 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:10,562 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:11,362 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:12,173 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:12,983 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:13,803 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:14,615 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:15,426 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:16,234 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:17,064 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:17,878 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:18,695 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:19,499 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:20,324 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:21,134 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:21,935 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:22,755 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:23,577 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:24,375 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:25,190 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:25,997 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:26,825 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:27,636 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:28,435 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:29,255 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:30,077 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:30,876 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:31,692 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:32,505 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:33,321 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:34,124 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:34,935 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:35,754 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:36,581 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:37,394 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:38,208 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:39,016 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:39,837 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:40,640 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:41,451 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:42,275 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:43,084 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:43,894 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:44,702 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:45,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:46,340 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:47,137 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:47,955 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:48,772 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:49,584 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:50,392 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:51,203 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:52,013 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:52,835 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:53,651 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:54,456 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:55,273 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:56,085 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:56,890 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:57,702 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:58,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:37:59,345 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:00,155 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:00,976 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:01,787 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:02,604 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:03,409 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:04,215 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:05,035 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:05,856 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:06,653 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:07,476 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:08,284 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:09,103 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:09,904 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:10,716 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:11,535 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:12,365 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:13,170 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:13,995 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:14,657 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:38:14,664 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:38:14,672 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:38:14,679 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:38:14,795 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:15,624 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:16,420 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:17,232 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:18,047 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:18,873 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:19,675 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:20,487 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:21,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:22,125 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:22,923 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:23,734 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:24,545 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:25,364 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:26,171 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:26,983 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:27,796 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:28,626 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:29,424 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:30,234 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:31,055 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:31,872 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:32,674 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:33,481 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:34,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:35,122 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:35,926 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:36,736 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:37,549 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:38,368 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:39,172 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:39,984 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:40,795 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:41,625 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:42,429 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:43,235 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:44,051 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:44,869 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:45,673 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:46,493 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:47,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:48,122 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:48,928 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:49,735 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:50,549 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:51,365 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:52,178 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:52,993 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:53,794 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:54,626 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:55,429 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:56,235 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:57,046 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:57,865 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:58,677 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:38:59,486 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:00,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:01,126 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:01,925 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:02,734 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:03,546 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:04,365 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:05,170 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:05,986 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:06,795 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:07,624 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:08,424 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:09,235 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:10,048 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:10,865 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:11,676 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:12,495 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:13,296 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:14,118 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:14,934 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:15,735 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:16,554 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:17,366 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:18,175 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:18,996 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:19,794 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:20,625 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:21,424 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:22,236 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:23,050 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:23,869 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:24,671 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:25,493 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:26,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:27,123 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:27,919 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:28,736 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:29,544 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:30,368 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:31,176 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:31,992 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:32,796 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:33,625 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:34,434 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:35,232 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:36,045 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:36,881 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:37,697 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:38,510 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:39,315 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:40,130 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:40,935 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:41,753 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:42,571 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:43,382 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:44,195 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:45,007 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:45,817 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:46,638 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:47,435 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:48,251 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:49,060 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:49,881 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:50,696 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:51,508 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:52,315 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:53,132 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:53,936 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:54,749 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:55,576 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:56,405 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:57,211 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:58,015 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:58,827 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:39:59,652 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:00,454 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:01,263 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:02,075 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:02,906 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:03,715 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:04,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:05,335 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:06,156 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:06,955 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:07,765 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:08,575 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:09,406 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:10,207 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:11,013 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:11,831 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:12,651 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:13,455 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:14,271 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:15,909 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:16,715 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:17,528 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:18,356 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:19,161 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:19,965 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:20,782 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:21,591 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:22,423 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:23,232 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:24,044 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:24,864 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:25,681 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:26,484 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:27,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:28,107 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:28,929 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:29,735 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:30,544 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:31,357 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:32,185 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:32,983 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:33,796 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:34,607 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:35,432 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:36,235 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:37,046 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:37,856 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:38,685 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:39,487 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:40,294 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:41,111 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:41,935 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:42,732 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:43,543 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:44,364 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:45,177 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:45,991 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:46,797 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:47,608 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:48,432 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:49,236 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:50,048 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:50,859 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:51,681 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:52,495 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:53,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:54,108 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:54,930 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:55,736 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:56,548 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:57,359 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:58,182 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:58,983 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:40:59,794 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:00,614 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:01,430 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:02,235 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:03,043 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:03,871 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:04,685 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:05,485 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:06,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:07,116 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:07,940 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:08,753 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:09,564 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:10,375 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:11,192 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:11,997 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:12,815 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:13,623 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:14,444 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:15,246 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:16,060 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:16,876 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:17,701 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:18,501 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:19,313 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:20,124 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:20,945 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:21,751 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:22,559 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:23,375 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:24,201 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:25,001 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:25,810 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:26,630 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:27,446 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:28,256 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:29,065 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:29,879 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:30,695 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:31,502 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:32,311 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:33,123 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:33,944 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:34,756 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:35,560 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:36,375 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:37,205 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:38,015 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:38,834 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:39,639 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:40,464 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:41,275 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:42,074 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:42,896 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:43,718 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:44,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:45,328 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:46,138 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:46,965 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:47,766 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:48,576 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:49,393 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:50,210 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:51,016 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:51,830 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:52,638 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:53,464 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:54,271 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:55,075 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:55,893 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:56,716 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:57,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:58,326 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:59,143 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:41:59,960 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:00,765 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:01,574 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:02,388 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:03,209 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:03,748 [INFO] [MainThread] [root/window_actions.py:225]: Successfully ended task via forced EndTask for HWND: 4588320
+2026-06-01 23:42:04,012 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:04,826 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:05,644 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:06,463 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:07,266 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:08,075 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:08,894 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:09,710 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:10,512 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:11,335 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:11,490 [INFO] [MainThread] [root/window_actions.py:225]: Successfully ended task via forced EndTask for HWND: 6163206
+2026-06-01 23:42:12,138 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:12,962 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:13,762 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:14,575 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:15,387 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:16,217 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:17,015 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:17,827 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:18,638 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:19,465 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:20,269 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:21,075 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:21,896 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:22,720 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:23,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:24,336 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:25,151 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:25,961 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:26,762 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:27,575 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:28,389 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:29,215 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:30,013 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:30,826 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:31,644 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:32,464 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:33,264 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:34,075 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:34,895 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:35,718 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:36,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:37,325 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:37,940 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:42:38,140 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:38,964 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:39,656 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:42:39,767 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:40,576 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:41,388 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:42,221 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:43,035 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:43,845 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:44,655 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:45,483 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:46,280 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:47,092 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:47,907 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:48,736 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:49,550 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:50,361 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:51,170 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:51,989 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:52,796 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:53,613 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:54,423 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:55,244 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:56,046 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:56,856 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:57,676 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:58,499 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:42:59,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:00,110 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:00,921 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:01,744 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:02,547 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:03,361 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:04,175 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:04,995 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:05,795 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:06,613 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:07,426 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:08,244 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:09,056 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:09,866 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:10,676 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:11,498 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:12,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:13,115 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:13,928 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:14,744 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:15,548 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:16,357 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:17,171 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:18,001 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:18,795 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:19,615 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:20,427 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:21,244 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:22,044 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:22,871 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:23,669 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:24,504 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:25,316 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:26,127 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:26,935 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:27,761 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:28,564 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:29,374 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:30,195 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:31,021 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:31,845 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:32,647 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:33,455 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:34,282 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:35,076 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:35,891 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:36,714 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:37,522 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:38,335 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:39,153 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:39,976 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:40,802 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:41,607 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:42,432 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:43,235 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:44,060 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:44,865 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:45,673 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:46,485 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:47,304 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:48,115 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:48,929 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:49,736 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:50,561 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:51,361 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:52,175 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:52,987 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:53,804 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:54,606 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:55,430 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:56,236 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:57,065 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:57,876 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:58,693 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:43:59,506 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:00,326 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:01,123 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:01,935 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:02,755 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:03,582 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:04,396 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:05,211 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:06,014 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:06,849 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:07,641 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:08,451 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:09,276 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:10,084 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:10,896 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:11,714 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:12,514 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:13,333 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:14,151 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:14,951 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:15,766 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:16,584 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:17,390 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:18,203 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:19,015 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:19,850 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:20,655 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:21,476 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:22,278 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:22,958 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:23,104 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:23,910 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:24,716 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:25,531 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:26,362 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:27,174 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:27,987 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:28,793 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:29,624 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:30,422 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:31,235 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:32,053 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:32,875 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:33,676 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:34,486 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:35,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:36,120 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:36,919 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:38,253 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,258 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,264 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,269 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,274 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,279 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,283 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,288 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,297 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:38,303 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:44:39,367 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:40,169 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:40,985 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:41,796 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:42,617 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:43,419 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:44,234 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:45,055 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:45,866 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:46,676 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:47,491 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:48,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:49,122 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:49,926 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:50,735 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:51,545 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:52,379 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:53,189 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:54,002 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:54,812 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:55,631 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:56,436 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:57,256 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:58,070 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:58,888 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:44:59,686 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:00,502 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:01,317 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:02,153 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:02,950 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:03,775 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:04,576 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:05,404 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:06,212 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:07,016 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:07,834 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:08,664 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:09,451 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:10,265 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:11,076 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:11,899 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:11,912 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-01 23:45:11.912476
+2026-06-01 23:45:12,702 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:13,513 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:14,336 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:15,160 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:15,975 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:16,792 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:17,595 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:18,428 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:19,231 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:20,055 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:20,865 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:21,698 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:22,403 [INFO] [MainThread] [root/window_actions.py:225]: Successfully ended task via forced EndTask for HWND: 2883922
+2026-06-01 23:45:22,495 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:23,295 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:24,116 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:24,930 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:25,736 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:26,553 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:27,357 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:28,187 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:30,611 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:31,154 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-06-01 23:45:31,443 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:32,248 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:33,063 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:33,876 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:34,698 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:35,499 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:36,314 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:37,124 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:37,944 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:38,750 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:39,563 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:40,372 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:41,193 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:42,006 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:42,815 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:43,623 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:44,443 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:45,255 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:46,062 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:46,876 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:47,695 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:48,512 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:49,310 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:50,126 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:50,945 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:51,750 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:52,561 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:53,376 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:54,199 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:55,011 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:55,815 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:56,632 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:57,445 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:58,247 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:59,073 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:45:59,885 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:00,702 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:01,502 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:02,316 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:03,128 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:03,943 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:04,755 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:05,564 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:06,375 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:07,203 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:08,005 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:08,815 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:09,633 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:10,443 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:11,254 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:12,066 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:12,876 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:13,699 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:14,503 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:15,310 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:16,129 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:16,944 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:17,747 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:18,560 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:19,375 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:20,205 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:21,015 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:21,848 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:22,647 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:23,464 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:24,271 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:25,075 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:25,893 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:26,714 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:27,515 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:28,326 [DEBUG] [SystrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6864. Err: 5
+2026-06-01 23:46:58,143 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:46:58,143 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:46:58,144 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:46:58,144 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-06-01 23:47:08,314 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:47:08,314 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:47:08,315 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:47:08,315 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-06-01 23:47:46,636 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,643 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,649 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,656 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,662 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,668 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,675 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,680 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,686 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:47:46,691 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:50:40,998 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-01 23:50:41,100 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-01 23:50:41,100 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-01 23:50:41,106 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-01 23:50:41,190 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-01 23:50:41,193 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-01 23:50:41,194 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:50:41,196 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 7211300
+2026-06-01 23:50:41,206 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-01 23:50:41,223 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-01 23:50:41,224 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-01 23:50:41,237 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 7211300
+2026-06-01 23:50:41,666 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:50:41,667 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:50:41,668 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:50:41,880 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:50:41,881 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:50:43,042 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-01 23:50:43,265 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-01 23:50:43,357 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-01 23:50:43,361 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-01 23:50:43,423 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-01 23:50:43,423 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-01 23:50:43,430 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-01 23:50:43,459 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:50:43,467 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-01 23:50:43,554 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-01 23:50:43,716 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-01 23:50:43,837 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:50:43,917 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 6030652
+2026-06-01 23:50:43,924 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-01 23:50:44,041 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-01 23:50:44.041136
+2026-06-01 23:50:51,267 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-01 23:50:51,368 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-01 23:50:51,368 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-01 23:50:51,374 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-01 23:50:51,456 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-01 23:50:51,458 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-01 23:50:51,459 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:50:51,461 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 6030652
+2026-06-01 23:50:51,474 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-01 23:50:51,481 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-01 23:50:51,482 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-01 23:50:51,488 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 6030652
+2026-06-01 23:50:51,942 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:50:51,942 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:50:51,943 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:50:52,159 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:50:52,159 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:50:53,297 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-01 23:50:53,608 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-01 23:50:53,686 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-01 23:50:53,690 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-01 23:50:53,745 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-01 23:50:53,745 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-01 23:50:53,746 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-01 23:50:53,756 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:50:53,763 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-01 23:50:53,995 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-01 23:50:54,119 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:50:54,147 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-01 23:50:54.147121
+2026-06-01 23:50:54,200 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 1705824
+2026-06-01 23:50:54,204 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-01 23:50:54,207 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-01 23:54:06,528 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-01 23:54:06,629 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-01 23:54:06,630 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-01 23:54:06,638 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-01 23:54:06,724 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-01 23:54:06,726 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-01 23:54:06,727 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:54:06,728 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1705824
+2026-06-01 23:54:06,734 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-01 23:54:06,741 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-01 23:54:06,743 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-01 23:54:06,749 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 1705824
+2026-06-01 23:54:07,235 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:54:07,236 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:54:07,236 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:54:07,470 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:54:07,470 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:54:08,570 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-01 23:54:08,808 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-01 23:54:08,896 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-01 23:54:08,899 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-01 23:54:08,954 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-01 23:54:08,954 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-01 23:54:08,955 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-01 23:54:08,967 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:54:08,976 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-01 23:54:09,216 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-01 23:54:09,331 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:54:09,417 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 16648190
+2026-06-01 23:54:09,419 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-01 23:54:09,422 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-01 23:54:09,548 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-01 23:54:09.548445
+2026-06-01 23:58:31,230 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-01 23:58:31,331 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-01 23:58:31,331 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-01 23:58:31,340 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-01 23:58:31,429 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-01 23:58:31,432 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-01 23:58:31,433 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:58:31,435 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 16648190
+2026-06-01 23:58:31,449 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-01 23:58:31,455 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-01 23:58:31,456 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-01 23:58:31,464 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 16648190
+2026-06-01 23:58:31,921 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:58:31,922 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:58:31,922 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:58:32,136 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:58:32,136 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:58:33,305 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-01 23:58:33,515 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-01 23:58:33,601 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-01 23:58:33,605 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-01 23:58:33,662 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-01 23:58:33,662 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-01 23:58:33,663 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-01 23:58:33,833 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:58:33,839 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-01 23:58:34,071 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-01 23:58:34,187 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:58:34,273 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 656662
+2026-06-01 23:58:34,275 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-01 23:58:34,278 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-01 23:58:34,392 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-01 23:58:34.392160
+2026-06-01 23:58:44,401 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-01 23:58:44,502 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-01 23:58:44,502 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-01 23:58:44,509 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-01 23:58:44,636 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-01 23:58:44,638 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-01 23:58:44,639 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:58:44,641 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 656662
+2026-06-01 23:58:44,653 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-01 23:58:44,659 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-01 23:58:44,660 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-01 23:58:44,667 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 656662
+2026-06-01 23:58:45,116 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-01 23:58:45,116 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-01 23:58:45,116 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-01 23:58:45,327 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-01 23:58:45,327 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-01 23:58:46,446 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-01 23:58:46,657 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-01 23:58:46,748 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-01 23:58:46,751 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-01 23:58:46,810 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-01 23:58:46,810 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-01 23:58:46,812 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-01 23:58:47,001 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-01 23:58:47,011 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-01 23:58:47,263 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-01 23:58:47,375 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-01 23:58:47.375456
+2026-06-01 23:58:47,460 [ERROR] [MainThread] [root/media.py:1060]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-06-01 23:58:47,499 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 21039276
+2026-06-01 23:58:47,502 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-01 23:58:47,505 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:01:12,343 [INFO] [MainThread] [root/window_actions.py:225]: Successfully ended task via forced EndTask for HWND: 1248192
+2026-06-02 00:01:38,126 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:01:38,227 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:01:38,227 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:01:38,235 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:01:38,762 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:01:38,762 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:01:38,763 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:01:38,763 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2026-06-02 00:01:46,890 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:01:46,990 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:01:46,991 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:01:46,995 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:01:47,075 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-02 00:01:47,079 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:01:47,079 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:01:47,080 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 21039276
+2026-06-02 00:01:47,094 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:01:47,100 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:01:47,101 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:01:47,110 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 21039276
+2026-06-02 00:01:47,275 [INFO] [MainThread] [root/main.py:71]: Previous instance exited, continuing startup.
+2026-06-02 00:01:47,559 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:01:47,559 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:01:47,559 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:01:47,560 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2026-06-02 00:01:47,562 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-02 00:01:47,562 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-02 00:01:48,581 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-02 00:01:48,766 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-02 00:01:48,850 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-02 00:01:48,853 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-02 00:01:48,914 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-02 00:01:48,914 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-02 00:01:48,915 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-02 00:01:49,097 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:01:49,103 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-02 00:01:49,386 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-02 00:01:49,533 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-02 00:01:49,587 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2164138
+2026-06-02 00:01:49,592 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:01:49,704 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-02 00:01:49.704816
+2026-06-02 00:01:57,576 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2026-06-02 00:02:19,902 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:02:20,002 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:02:20,003 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:02:20,010 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:02:20,088 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-02 00:02:20,090 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:02:20,091 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:02:20,092 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2164138
+2026-06-02 00:02:20,111 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:02:20,116 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:02:20,117 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:02:20,125 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2164138
+2026-06-02 00:02:20,566 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:02:20,567 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:02:20,567 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:02:20,847 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-02 00:02:20,847 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-02 00:02:21,818 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-02 00:02:21,997 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-02 00:02:22,079 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-02 00:02:22,082 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-02 00:02:22,145 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-02 00:02:22,145 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-02 00:02:22,146 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-02 00:02:22,301 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:02:22,307 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-02 00:02:22,559 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-02 00:02:22,642 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-02 00:02:22.642793
+2026-06-02 00:02:22,760 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 4983024
+2026-06-02 00:02:22,763 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-02 00:02:22,766 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:02:29,951 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:02:30,052 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:02:30,053 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:02:30,060 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:02:30,125 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-02 00:02:30,127 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:02:30,128 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:02:30,129 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4983024
+2026-06-02 00:02:30,148 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:02:30,170 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:02:30,171 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:02:30,176 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4983024
+2026-06-02 00:02:30,562 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:02:30,563 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:02:30,563 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:02:30,803 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-02 00:02:30,803 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-02 00:02:31,765 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-02 00:02:31,958 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-02 00:02:32,046 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-02 00:02:32,049 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-02 00:02:32,109 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-02 00:02:32,109 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-02 00:02:32,110 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-02 00:02:32,290 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:02:32,297 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-02 00:02:32,530 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-02 00:02:32,580 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-02 00:02:32,742 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-02 00:02:32.742508
+2026-06-02 00:02:32,789 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 4131190
+2026-06-02 00:02:32,796 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:03:39,390 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:03:39,492 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:03:39,492 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:03:39,502 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:03:39,580 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-02 00:03:39,582 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:03:39,583 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:03:39,601 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4131190
+2026-06-02 00:03:39,615 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:03:39,616 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:03:39,617 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:03:39,622 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 4131190
+2026-06-02 00:03:41,234 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:03:41,235 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:03:41,235 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:03:41,666 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-02 00:03:41,666 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-02 00:03:43,015 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-02 00:03:43,232 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-02 00:03:43,359 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-02 00:03:43,362 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-02 00:03:43,423 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-02 00:03:43,424 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-02 00:03:43,425 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-02 00:03:43,595 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:03:43,602 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-02 00:03:43,866 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-02 00:03:43,867 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-02 00:03:43.867763
+2026-06-02 00:03:44,067 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 985348
+2026-06-02 00:03:44,070 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-02 00:03:44,074 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:04:09,272 [INFO] [MainThread] [root/controller.py:15]: Reloading Bar from context menu...
+2026-06-02 00:04:09,373 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:04:09,373 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:04:09,467 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-02 00:04:09,470 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:04:09,471 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:04:09,473 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 985348
+2026-06-02 00:04:09,490 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:04:09,497 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:04:09,498 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:04:09,504 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 985348
+2026-06-02 00:04:09,910 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:04:09,911 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:04:09,911 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:04:10,159 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-02 00:04:10,160 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-02 00:04:11,105 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-02 00:04:11,283 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-02 00:04:11,364 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-02 00:04:11,368 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-02 00:04:11,434 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-02 00:04:11,434 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-02 00:04:11,436 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-02 00:04:11,605 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:04:11,610 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-02 00:04:11,868 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-02 00:04:11,869 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-02 00:04:11.869338
+2026-06-02 00:04:12,069 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 17369250
+2026-06-02 00:04:12,073 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-02 00:04:12,076 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:06:46,092 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:06:46,192 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:06:46,192 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:06:46,199 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:06:46,271 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-02 00:06:46,273 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:06:46,273 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:06:46,274 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 17369250
+2026-06-02 00:06:46,285 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:06:46,296 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:06:46,298 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:06:46,306 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 17369250
+2026-06-02 00:06:46,760 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:06:46,761 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:06:46,761 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:06:46,967 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-02 00:06:46,967 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-02 00:06:48,032 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-02 00:06:48,211 [DEBUG] [MainThread] [root/pin_manager.py:163]: Loaded 0 pinned apps from C:\Users\shuvr\AppData\Local\YASB\taskbar_pinned.json
+2026-06-02 00:06:48,294 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2026-06-02 00:06:48,298 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-02 00:06:48,359 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-02 00:06:48,360 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-02 00:06:48,361 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-02 00:06:48,514 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:06:48,520 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-02 00:06:48,770 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-02 00:06:48,970 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 51448110
+2026-06-02 00:06:48,975 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-02 00:06:48,979 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:06:49,241 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-02 00:06:49.241451
+2026-06-02 00:07:15,392 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:07:15,493 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:07:15,493 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:07:15,500 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:07:15,573 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2026-06-02 00:07:15,576 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:07:15,576 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:07:15,578 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 51448110
+2026-06-02 00:07:15,598 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:07:15,610 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:07:15,611 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:07:15,618 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 51448110
+2026-06-02 00:07:16,061 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:07:16,062 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:07:16,063 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-06-02 00:07:16,274 [WARNING] [MainThread] [root/clock.py:437]: Invalid timezone 'Chattogram, Bangladesh' ignored. Use format like 'America/New_York' or 'Europe/London'
+2026-06-02 00:07:16,274 [WARNING] [MainThread] [root/clock.py:442]: No valid timezones found, using system local timezone
+2026-06-02 00:07:17,431 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-06-02 00:07:17,665 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\shuvr\.config\yasb
+2026-06-02 00:07:17,737 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-06-02 00:07:17,737 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-06-02 00:07:17,738 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-06-02 00:07:17,932 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:07:17,940 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-06-02 00:07:18,224 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-06-02 00:07:18,332 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-02 00:07:18.332165
+2026-06-02 00:07:18,426 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 2558086
+2026-06-02 00:07:18,431 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-06-02 00:07:18,436 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49422
+2026-06-02 00:07:30,062 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-06-02 00:07:30,162 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-06-02 00:07:30,163 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-06-02 00:07:30,170 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-06-02 00:07:30,241 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2026-06-02 00:07:30,241 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\shuvr\AppData\Local\YASB\systray_state_CHIMEIINNOLUXCORPORATIONDISPLAY1.json
+2026-06-02 00:07:30,243 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2558086
+2026-06-02 00:07:30,262 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-06-02 00:07:30,266 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-06-02 00:07:30,267 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-06-02 00:07:30,274 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 2558086
+2026-06-02 00:07:30,711 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-06-02 00:07:30,711 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-06-02 00:07:30,712 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
