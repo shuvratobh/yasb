@@ -19,9 +19,9 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 22
+      height: 28
     widgets:
-      left: ["home", "recycle_bin", "clock_time", "clock_weekday", "clock_day", "taskbar"]
+      left: ["home", "clock_time", "clock_weekday", "clock_day", "taskbar"]
       center: []
       right:
         [
@@ -37,7 +37,7 @@ bars:
           "brightness",
           "volume",
           "settings",
-          "notifications",
+           "recycle_bin",
           "power_menu",
         ]
 widgets:
@@ -68,13 +68,14 @@ widgets:
         lock: "\uea75   Lock"
       
       menu_list:
-        - { title: "🗑️  Clear Recycle Bin", path: "C:\\Users\\shuvr\\.config\\yasb\\clear_recycle_bin.bat" }
-        - { title: "🗂  X DRIVE", path: "X:\\" }
-        - { title: "🎬  Movies", path: "X:\\Movie\\" }
-        - { title: "🍥  Anime", path: "X:\\ANIME\\" }
-        - { title: "▶  YouTube", path: "C:\\Users\\shuvr\\.config\\yasb\\open_youtube.bat" }
-        - { title: "🌊  TorrentBD", path: "C:\\Users\\shuvr\\.config\\yasb\\open_torrentbd.bat" }
-        - { title: "🎬  Letterboxd", path: "C:\\Users\\shuvr\\.config\\yasb\\open_letterboxd.bat" }
+
+        - { title: "\uf0a0  X DRIVE", path: "X:\\" }
+        - { title: "\uf008  Movies", path: "X:\\Movie\\" }
+        - { title: "\uf03e  MPV Screenshots", path: "X:\\Screenshots\\" }
+        - { title: "\uf26c  Anime", path: "X:\\ANIME\\" }
+        - { title: "\uf167  YouTube", path: "C:\\Users\\shuvr\\.config\\yasb\\open_youtube.bat" }
+        - { title: "\uf076  TorrentBD", path: "C:\\Users\\shuvr\\.config\\yasb\\open_torrentbd.bat" }
+        - { title: "\uf145  Letterboxd", path: "C:\\Users\\shuvr\\.config\\yasb\\open_letterboxd.bat" }
        
       system_menu: true
       power_menu: false
@@ -361,8 +362,8 @@ widgets:
 
         on_right: "do_nothing"
       max_field_size:
-        label: 15
-        label_alt: 15
+        label: 25
+        label_alt: 25
       show_thumbnail: false
       controls_only: false
       controls_left: true
@@ -397,7 +398,7 @@ widgets:
         prev_track: "\ue892"
         next_track: "\ue893"
       scrolling_label:
-        enabled: false
+        enabled: true
         update_interval_ms: 13
         style: "left" # can be "left", "right", "bounce", "bounce-ease"
         separator: "    |    "

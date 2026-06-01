@@ -117,6 +117,13 @@
   font-weight: var(--font-bold);
 }
 
+/* Clock */
+.clock-weekday .label,
+.clock-day .label {
+  font-size: 14px;
+  font-weight: 1000;
+}
+
 /* Home */
 .home-widget {}
 
@@ -147,16 +154,26 @@
 .weather-widget .label {
   color: #ffffff;
   font-family: "Segoe UI Emoji", "Segoe UI", "JetBrainsMono NFP";
-  font-size: 16px;
+  font-size: var(--text-normal);
   font-weight: 800;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2px;
+}
+
+/* Specifically target the emoji inside the weather label */
+.weather-widget .label span {
+  font-size: 11px;
+  /* Scaled down to match other icons */
+  font-weight: 400;
+  /* Emojis don't need bold weight */
 }
 
 .weather-widget .temp-text {
   color: #7dcfff;
-  font-weight: 1000;
-  font-size: 16px;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 800;
+  font-size: var(--text-normal);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2px;
 }
 
 .weather-widget .icon {
@@ -168,67 +185,97 @@
 }
 
 .weather-widget .icon.clearNight {
-  font-size: var(--text-xl);
+  font-size: var(--text-normal);
   color: var(--color-light-blue);
 }
 
-/* Weather Card */
+/* Weather Card Premium Overhaul */
 .weather-card {
-  background-color: var(--bg-primary);
+  background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(28, 36, 52, 0.95), stop:1 rgba(14, 20, 30, 0.95));
+  border: 1px solid rgba(78, 205, 196, 0.35);
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.weather-card-today {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
 }
 
 .weather-card-today .label {
-  font-size: var(--text-normal);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .weather-card-today .label.location {
-  font-size: var(--text-2xl);
-  font-weight: var(--font-bold);
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0 0 15px rgba(78, 205, 196, 0.6);
+  margin-bottom: 4px;
 }
 
 .weather-card-today .label.alert {
-  font-size: var(--text-normal);
-  font-weight: var(--font-bold);
-  border: 1px solid rgba(247, 209, 42, 0.1);
-  color: rgba(196, 181, 162, 0.85);
-  border-radius: var(--radius-normal);
-  padding: 9px 0;
+  font-size: 14px;
+  font-weight: 800;
+  border: 1px solid rgba(255, 107, 107, 0.4);
+  background-color: rgba(255, 107, 107, 0.1);
+  color: #ff6b6b;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-top: 8px;
 }
 
+/* 3-Day Forecast Cards */
 .weather-card-day {
-  border-radius: var(--radius-normal);
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 0.05), stop:1 rgba(255, 255, 255, 0.01));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 8px;
+  margin: 0 4px;
 }
 
 .weather-card-day.active {
-  background-color: var(--bg-hover-secondary);
-  border: 1px solid var(--color-grey);
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(78, 205, 196, 0.25), stop:1 rgba(78, 205, 196, 0.1));
+  border: 1px solid rgba(78, 205, 196, 0.6);
 }
 
 .weather-card-day:hover {
-  background-color: var(--bg-hover-primary);
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(78, 205, 196, 0.4), stop:1 rgba(78, 205, 196, 0.15));
+  border: 1px solid rgba(78, 205, 196, 0.9);
 }
 
 .weather-card-day .label {
-  font-size: var(--text-normal);
+  font-size: 14px;
+  font-weight: 600;
 }
 
+/* Hourly Graph */
 .weather-card .hourly-container {
-  border-radius: var(--radius-normal);
-  min-height: 150px;
-  background-color: transparent;
+  border-radius: 12px;
+  min-height: 180px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 12px;
+  padding: 8px;
 }
 
 .weather-card .hourly-data {
-  background-color: var(--color-yellow);
-  /* <- Curve color */
-  font-size: var(--text-normal);
-  font-weight: var(--font-bold);
+  background-color: #4ecdc4;
+  /* Vibrant Teal Curve */
+  font-size: 13px;
+  font-weight: 800;
+  color: #ffffff;
 }
 
-/* Clock details (Calendar popup) */
+/* Clock details (Calendar popup) Premium Redesign */
 .calendar {
-  background-color: transparent;
-  padding: 10px 0;
+  background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(28, 36, 52, 0.95), stop:1 rgba(14, 20, 30, 0.95));
+  border: 1px solid rgba(78, 205, 196, 0.35);
+  border-radius: 18px;
+  padding: 16px;
 }
 
 .calendar .calendar-table {
@@ -239,26 +286,28 @@
 
 .calendar .calendar-table::item {
   background-color: transparent;
-  color: var(--text-secondary);
-  font-family: 'sans-serif';
-  font-size: var(--text-lg);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-name-primary);
+  font-size: 16px;
+  font-weight: 600;
   margin: 0px;
   border-radius: 8px;
+  border: 1px solid transparent;
 }
 
 /* Highlight today */
 .calendar .calendar-table::item:selected {
-  color: #0a1016;
-  /* Dark background color for high contrast text */
-  background-color: var(--accent);
-  /* Teal from main theme */
+  color: #ffffff;
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(78, 205, 196, 0.8), stop:1 rgba(78, 205, 196, 0.4));
+  border: 1px solid rgba(78, 205, 196, 1.0);
   border-radius: 8px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 /* Hover properties for days */
 .calendar .calendar-table::item:hover {
-  background-color: var(--glass-hover);
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(78, 205, 196, 0.25), stop:1 rgba(78, 205, 196, 0.1));
+  border: 1px solid rgba(78, 205, 196, 0.6);
   color: #ffffff;
 }
 
@@ -276,10 +325,10 @@
 
 /* "Monday", "Tuesday" */
 .calendar .day-label {
-  font-size: var(--text-2xl);
-  font-weight: var(--font-bold);
-  color: var(--accent);
-  /* Teal color for the day of week */
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0 0 15px rgba(78, 205, 196, 0.6);
   margin-top: 10px;
 }
 
@@ -1207,15 +1256,145 @@
   text-shadow: 0 0 8px rgba(78, 205, 196, 0.45);
 }
 
-/* Popups / Menus */
+/* Notes Widget AMOLED Black Redesign */
+.notes-menu {
+  background-color: #000000;
+  border: 1px solid rgba(78, 205, 196, 0.4);
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 350px;
+}
+
+.notes-menu QTextEdit,
+.notes-menu QLineEdit {
+  background-color: #050505;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  color: #ffffff;
+  font-family: var(--font-name-primary);
+  font-size: 14px;
+}
+
+.notes-menu QTextEdit:focus,
+.notes-menu QLineEdit:focus {
+  border: 1px solid rgba(78, 205, 196, 0.8);
+  background-color: #0a0a0a;
+}
+
+.notes-menu QPushButton {
+  background-color: transparent;
+  border: 1px solid rgba(78, 205, 196, 0.5);
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: #4ecdc4;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.notes-menu QPushButton:hover {
+  background-color: rgba(78, 205, 196, 0.15);
+  border: 1px solid #4ecdc4;
+  color: #ffffff;
+}
+
+.notes-menu QListWidget {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+
+/* Force inner frames and labels to be Deep Teal instead of default Qt ash gray */
+.notes-menu QListWidget QWidget,
+.notes-menu QListWidget QFrame,
+.notes-menu QListWidget QLabel,
+.notes-menu QListWidget QTextBrowser {
+  background-color: #1a2f2f;
+  /* Deep Teal */
+  color: #ffffff;
+}
+
+/* Let text expand and trigger a horizontal scrollbar */
+.notes-menu QListWidget QLabel,
+.notes-menu QListWidget QTextBrowser {
+  qproperty-wordWrap: false;
+}
+
+/* Modern Horizontal Scrollbar */
+.notes-menu QScrollBar:horizontal {
+  border: none;
+  background-color: #050505;
+  height: 8px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.notes-menu QScrollBar::handle:horizontal {
+  background-color: rgba(78, 205, 196, 0.5);
+  min-width: 40px;
+  border-radius: 4px;
+}
+
+.notes-menu QScrollBar::handle:horizontal:hover {
+  background-color: #4ecdc4;
+}
+
+.notes-menu QScrollBar::add-line:horizontal,
+.notes-menu QScrollBar::sub-line:horizontal {
+  width: 0px;
+  background: none;
+}
+
+.notes-menu QListWidget::item {
+  background-color: #1a2f2f;
+  /* Deep Teal */
+  border: 1px solid rgba(78, 205, 196, 0.5);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.notes-menu QListWidget::item:hover {
+  background-color: #244242;
+  /* Lighter Teal on hover */
+  border: 1px solid rgba(78, 205, 196, 0.9);
+}
+
+.notes-menu QListWidget::item:hover QWidget,
+.notes-menu QListWidget::item:hover QFrame,
+.notes-menu QListWidget::item:hover QLabel {
+  background-color: #244242;
+}
+
+.notes-menu QListWidget QPushButton {
+  background-color: #112020;
+  /* Darker teal for buttons */
+  border: 1px solid rgba(78, 205, 196, 0.3);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  margin: 0 4px;
+  min-width: 28px;
+  max-width: 28px;
+}
+
+.notes-menu QListWidget QPushButton:hover {
+  background-color: rgba(78, 205, 196, 0.15);
+  border: 1px solid rgba(78, 205, 196, 0.8);
+  color: #4ecdc4;
+}
+
+/* Popups / Menus (Global) */
 .home-menu,
-.weather-card,
 .audio-menu,
 .power-menu-popup,
 .disk-group,
 .traffic-menu,
 .media-menu,
-.calendar {
+.todo-menu,
+.pomodoro-menu {
   background-color: var(--glass-menu);
   backdrop-filter: blur(18px);
   border: 1px solid var(--glass-border);
@@ -1333,7 +1512,9 @@ QMenu::separator,
 
 .cpu-widget .label,
 .memory-widget .label,
-.disk .label {
+.disk .label,
+.brightness-widget .label,
+.volume-widget .label {
   font-variant-numeric: tabular-nums;
 }
 
@@ -1392,4 +1573,242 @@ QMenu::separator,
   color: #0a1016;
   font-weight: 800;
   text-shadow: none;
+}
+
+/* Premium Todo Menu Styling */
+.todo-menu {
+  min-width: 480px;
+  padding: 16px;
+}
+
+.todo-menu .header {
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.todo-menu .header QPushButton {
+  background-color: transparent;
+  color: var(--text-secondary);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-weight: 600;
+  font-family: var(--font-name-primary);
+  margin: 0 2px;
+}
+
+.todo-menu .header QPushButton:hover {
+  background-color: var(--glass-hover);
+  color: var(--text-primary);
+}
+
+.todo-menu .header QPushButton:checked {
+  background-color: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.todo-menu .task-item {
+  padding: 12px 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.todo-menu .task-item:hover {
+  background-color: var(--glass-hover);
+  border: 1px solid var(--glass-border);
+}
+
+.todo-menu .task-item .title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--text-primary);
+  padding-left: 12px;
+}
+
+.todo-menu .task-item.completed .title {
+  color: var(--text-secondary);
+  text-decoration: line-through;
+}
+
+.todo-menu .task-item QCheckBox {
+  spacing: 12px;
+}
+
+.todo-menu .task-item QCheckBox::indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--text-secondary);
+  background-color: transparent;
+}
+
+.todo-menu .task-item QCheckBox::indicator:hover {
+  border-color: var(--accent);
+}
+
+.todo-menu .task-item QCheckBox::indicator:checked {
+  border-color: var(--accent);
+  background-color: var(--accent);
+}
+
+.todo-menu .task-item QLabel {
+  color: var(--text-secondary);
+  font-size: 13px;
+  padding-top: 4px;
+}
+
+.todo-menu .task-item QPushButton {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: 4px;
+}
+
+.todo-menu .task-item QPushButton:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--text-primary);
+}
+
+.todo-menu .task-item QPushButton[text="Delete"] {
+  color: #ff5555;
+  background-color: rgba(255, 85, 85, 0.05);
+}
+
+.todo-menu .task-item QPushButton[text="Delete"]:hover {
+  background-color: rgba(255, 85, 85, 0.2);
+  color: #ff7777;
+}
+
+.todo-menu .task-item QPushButton[text="Edit"]:hover {
+  background-color: rgba(78, 205, 196, 0.15);
+  color: var(--accent);
+}
+
+/* Add Task Popup Inputs */
+.todo-menu QLineEdit,
+.todo-menu QTextEdit,
+.todo-menu QPlainTextEdit {
+  background-color: rgba(10, 16, 22, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: var(--text-primary);
+  padding: 8px 12px;
+  font-family: var(--font-name-primary);
+  font-size: 14px;
+  selection-background-color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.todo-menu QLineEdit:focus,
+.todo-menu QTextEdit:focus,
+.todo-menu QPlainTextEdit:focus {
+  border: 1px solid var(--accent);
+  background-color: rgba(10, 16, 22, 0.9);
+}
+
+/* Category & Action Buttons in Add Task Menu */
+.todo-menu QPushButton {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-weight: 600;
+  margin: 2px;
+}
+
+.todo-menu QPushButton:hover {
+  background-color: var(--glass-hover);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+}
+
+.todo-menu QPushButton:checked {
+  background-color: var(--accent-soft) !important;
+  color: var(--accent) !important;
+  border: 1px solid var(--accent) !important;
+}
+
+/* Specific styling for the primary Add Task action */
+.todo-menu QPushButton#add-btn,
+.todo-menu QPushButton[text="Add Task"] {
+  background-color: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.todo-menu QPushButton#add-btn:hover,
+.todo-menu QPushButton[text="Add Task"]:hover {
+  background-color: var(--accent);
+  color: #0a1016;
+}
+
+/* Pomodoro Widget Styling */
+.pomodoro-menu {
+  min-width: 250px;
+  padding: 16px;
+}
+
+.pomodoro-menu QPushButton {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-family: var(--font-name-primary);
+  margin: 4px;
+}
+
+.pomodoro-menu QPushButton:hover {
+  background-color: var(--glass-hover);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.pomodoro-menu QLabel {
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--text-primary);
+  padding: 8px;
+}
+
+/* Bold Main Bar Labels for Weather, Todo & Pomodoro */
+WeatherWidget,
+TodoWidget,
+PomodoroWidget,
+#weather,
+.weather,
+.weather-widget,
+#todo,
+#pomodoro,
+WeatherWidget *,
+TodoWidget *,
+PomodoroWidget *,
+#weather *,
+.weather *,
+.weather-widget *,
+#todo *,
+#pomodoro * {
+  font-family: var(--font-name-primary);
+  font-size: var(--text-normal) !important;
+  font-weight: 800;
+}
+
+WeatherWidget,
+TodoWidget,
+PomodoroWidget,
+#weather,
+.weather,
+.weather-widget,
+#todo,
+#pomodoro {
+  padding: 0 4px;
 }
