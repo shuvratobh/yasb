@@ -4,14 +4,14 @@
   --font-name-icons: "Segoe Fluent Icons";
   --text-primary: #f8f9fa;
   --text-secondary: rgba(248, 249, 250, 0.6);
-  --text-small: 12px;
-  --text-normal: 14px;
-  --text-lg: 16px;
-  --text-xl: 18px;
-  --text-2xl: 24px;
-  --text-3xl: 30px;
-  --text-5xl: 48px;
-  --text-6xl: 64px;
+  --text-small: 11px;
+  --text-normal: 12px;
+  --text-lg: 14px;
+  --text-xl: 16px;
+  --text-2xl: 20px;
+  --text-3xl: 26px;
+  --text-5xl: 42px;
+  --text-6xl: 56px;
   --font-normal: 400;
   --font-bold: 600;
   --font-bold-xl: 900;
@@ -118,9 +118,11 @@
 }
 
 /* Clock */
-.clock-weekday .label, .clock-day .label {
-  font-size: 14px;
-  font-weight: 1000;
+.clock-weekday .label,
+.clock-time .label,
+.clock-day .label {
+  font-weight: 900; /* Extra bold */
+  letter-spacing: 0.5px;
 }
 
 /* Home */
@@ -128,6 +130,30 @@
 
 .home-widget .icon {
   font-size: var(--text-lg);
+}
+
+/* Recycle Bin */
+.recycle-bin-widget {
+  padding: 0 5px;
+}
+
+.recycle-bin-widget .label {
+  font-size: var(--text-normal);
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  padding: 0 2px;
+}
+
+.recycle-bin-widget .label font {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+  padding-right: 2px;
+}
+
+.recycle-bin-widget:hover {
+  background-color: var(--bg-hover-primary);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .home-menu {
@@ -161,8 +187,10 @@
 
 /* Specifically target the emoji inside the weather label */
 .weather-widget .label span {
-  font-size: 11px; /* Scaled down to match other icons */
-  font-weight: 400; /* Emojis don't need bold weight */
+  font-size: 10px;
+  /* Scaled down to match other icons */
+  font-weight: 400;
+  /* Emojis don't need bold weight */
 }
 
 .weather-widget .temp-text {
@@ -260,7 +288,8 @@
 }
 
 .weather-card .hourly-data {
-  background-color: #4ecdc4; /* Vibrant Teal Curve */
+  background-color: #4ecdc4;
+  /* Vibrant Teal Curve */
   font-size: 13px;
   font-weight: 800;
   color: #ffffff;
@@ -1261,7 +1290,8 @@
   max-width: 350px;
 }
 
-.notes-menu QTextEdit, .notes-menu QLineEdit {
+.notes-menu QTextEdit,
+.notes-menu QLineEdit {
   background-color: #050505;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -1271,7 +1301,8 @@
   font-size: 14px;
 }
 
-.notes-menu QTextEdit:focus, .notes-menu QLineEdit:focus {
+.notes-menu QTextEdit:focus,
+.notes-menu QLineEdit:focus {
   border: 1px solid rgba(78, 205, 196, 0.8);
   background-color: #0a0a0a;
 }
@@ -1304,7 +1335,8 @@
 .notes-menu QListWidget QFrame,
 .notes-menu QListWidget QLabel,
 .notes-menu QListWidget QTextBrowser {
-  background-color: #1a2f2f; /* Deep Teal */
+  background-color: #1a2f2f;
+  /* Deep Teal */
   color: #ffffff;
 }
 
@@ -1333,14 +1365,15 @@
   background-color: #4ecdc4;
 }
 
-.notes-menu QScrollBar::add-line:horizontal, 
+.notes-menu QScrollBar::add-line:horizontal,
 .notes-menu QScrollBar::sub-line:horizontal {
   width: 0px;
   background: none;
 }
 
 .notes-menu QListWidget::item {
-  background-color: #1a2f2f; /* Deep Teal */
+  background-color: #1a2f2f;
+  /* Deep Teal */
   border: 1px solid rgba(78, 205, 196, 0.5);
   border-radius: 8px;
   padding: 10px;
@@ -1349,7 +1382,8 @@
 }
 
 .notes-menu QListWidget::item:hover {
-  background-color: #244242; /* Lighter Teal on hover */
+  background-color: #244242;
+  /* Lighter Teal on hover */
   border: 1px solid rgba(78, 205, 196, 0.9);
 }
 
@@ -1360,7 +1394,8 @@
 }
 
 .notes-menu QListWidget QPushButton {
-  background-color: #112020; /* Darker teal for buttons */
+  background-color: #112020;
+  /* Darker teal for buttons */
   border: 1px solid rgba(78, 205, 196, 0.3);
   border-radius: 6px;
   color: rgba(255, 255, 255, 0.8);
@@ -1511,7 +1546,7 @@ QMenu::separator,
 /* Bright Clock with Heavy Shadow */
 .clock-widget .label {
   font-family: var(--font-name-primary);
-  font-size: 16px;
+  font-size: var(--text-normal);
   font-weight: 800;
   letter-spacing: 1px;
   text-shadow:
@@ -1523,9 +1558,7 @@ QMenu::separator,
     0px 0px 10px rgba(0, 0, 0, 1.0);
 }
 
-/* Custom Clock Widgets Styling (Slanted Shape) */
-.clock-weekday,
-.clock-day,
+/* Custom Clock Widgets Styling */
 .clock-time {
   border: none;
   background-color: transparent;
@@ -1534,8 +1567,6 @@ QMenu::separator,
   margin: 0 !important;
 }
 
-.clock-weekday:hover,
-.clock-day:hover,
 .clock-time:hover {
   background-color: transparent;
   border: none;
@@ -1543,26 +1574,46 @@ QMenu::separator,
 }
 
 .clock-weekday {
-  padding: 0 0 0 2px;
+  background-color: rgba(255, 123, 172, 0.15); /* Light Pink */
+  border: 1px solid rgba(255, 123, 172, 0.4);
+  padding: 0 10px;
+  margin: 1px 4px;
+  border-radius: 6px;
+}
+
+.clock-weekday .label {
+  color: #ffb8d2;
+  text-shadow: 0 0 8px rgba(255, 123, 172, 0.4);
 }
 
 .clock-day {
-  padding: 0 2px 0 0;
+  background-color: rgba(163, 191, 250, 0.15); /* Light Blue */
+  border: 1px solid rgba(163, 191, 250, 0.4);
+  padding: 0 10px;
+  margin: 1px 4px;
+  border-radius: 6px;
+}
+
+.clock-day .label {
+  color: #d1e0ff;
+  text-shadow: 0 0 8px rgba(163, 191, 250, 0.4);
 }
 
 .clock-time {
-  background-color: transparent;
-  border-image: url('C:/Users/shuvr/.config/yasb/time_bg.svg') 0 11 0 11 stretch stretch;
-  border-width: 0 11px 0 11px;
-  padding: 0 2px;
-  margin: 0 2px;
-  border-radius: 0;
+  background-color: rgba(78, 205, 196, 0.15); /* Light Teal */
+  border: 1px solid rgba(78, 205, 196, 0.4);
+  padding: 0 10px;
+  margin: 1px 4px;
+  border-radius: 6px;
+  border-image: none;
 }
 
 .clock-time .label {
-  color: #0a1016;
-  font-weight: 800;
-  text-shadow: none;
+  color: #8ce8e1; /* Pastel Teal */
+  font-weight: 900;
+  font-size: var(--text-normal);
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px rgba(78, 205, 196, 0.4);
 }
 
 /* Premium Todo Menu Styling */
@@ -1771,16 +1822,34 @@ QMenu::separator,
 }
 
 /* Bold Main Bar Labels for Weather, Todo & Pomodoro */
-WeatherWidget, TodoWidget, PomodoroWidget,
-#weather, .weather, .weather-widget, #todo, #pomodoro,
-WeatherWidget *, TodoWidget *, PomodoroWidget *,
-#weather *, .weather *, .weather-widget *, #todo *, #pomodoro * {
+WeatherWidget,
+TodoWidget,
+PomodoroWidget,
+#weather,
+.weather,
+.weather-widget,
+#todo,
+#pomodoro,
+WeatherWidget *,
+TodoWidget *,
+PomodoroWidget *,
+#weather *,
+.weather *,
+.weather-widget *,
+#todo *,
+#pomodoro * {
   font-family: var(--font-name-primary);
   font-size: var(--text-normal) !important;
   font-weight: 800;
 }
 
-WeatherWidget, TodoWidget, PomodoroWidget,
-#weather, .weather, .weather-widget, #todo, #pomodoro {
+WeatherWidget,
+TodoWidget,
+PomodoroWidget,
+#weather,
+.weather,
+.weather-widget,
+#todo,
+#pomodoro {
   padding: 0 4px;
 }

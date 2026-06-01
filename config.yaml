@@ -19,12 +19,13 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 25
+      height: 22
     widgets:
-      left: ["home", "taskbar"]
-      center: ["weather", "clock_weekday", "clock_time", "clock_day"]
+      left: ["home", "recycle_bin", "clock_time", "clock_weekday", "clock_day", "taskbar"]
+      center: []
       right:
         [
+          "weather",
           "todo",
           "pomodoro",
           "media",
@@ -40,6 +41,18 @@ bars:
           "power_menu",
         ]
 widgets:
+  recycle_bin:
+    type: "yasb.recycle_bin.RecycleBinWidget"
+    options:
+      label: "{icon}"
+      label_alt: "{icon} {items_count} ({items_size})"
+      icons:
+        bin_empty: "<font color='#4ecdc4'>\udb82\ude7a</font>"
+        bin_filled: "<font color='#ff4757'>\udb82\ude79</font>"
+      callbacks:
+        on_left: "exec explorer shell:RecycleBinFolder"
+        on_right: "empty_bin"
+        on_middle: "do_nothing"
   home:
     type: "yasb.home.HomeWidget"
     options:
@@ -59,6 +72,9 @@ widgets:
         - { title: "🗂  X DRIVE", path: "X:\\" }
         - { title: "🎬  Movies", path: "X:\\Movie\\" }
         - { title: "🍥  Anime", path: "X:\\ANIME\\" }
+        - { title: "▶  YouTube", path: "C:\\Users\\shuvr\\.config\\yasb\\open_youtube.bat" }
+        - { title: "🌊  TorrentBD", path: "C:\\Users\\shuvr\\.config\\yasb\\open_torrentbd.bat" }
+        - { title: "🎬  Letterboxd", path: "C:\\Users\\shuvr\\.config\\yasb\\open_letterboxd.bat" }
        
       system_menu: true
       power_menu: false
@@ -136,7 +152,7 @@ widgets:
       locale: "en_EN"
       timezones: ["Chattogram, Bangladesh"]
       callbacks:
-        on_left: "do_nothing"
+        on_left: "exec python C:\\Users\\shuvr\\.config\\yasb\\cycle_color.py"
         on_middle: "next_timezone"
         on_right: "exec cmd.exe /c start ms-clock:"
 
@@ -166,8 +182,8 @@ widgets:
     type: "yasb.weather.WeatherWidget"
     options:
       class_name: "weather"
-      label: "<span style='font-size: 12px;'>{icon}</span> <span style='font-size: 14px; font-weight: 1000;'>{temp}</span>"
-      label_alt: "<span>{icon}</span> {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
+      label: "<font color='#f9d423'>\uf2c9</font> {temp}"
+      label_alt: "<font color='#f9d423'>\uf2c9</font> {location}: {temp}, Min {min_temp}, Max {max_temp}, Wind {wind}"
       api_key: "6ce6e12b6746466396975230262101" # Get your free API key from https://www.weatherapi.com/
       update_interval: 600 # Update interval in seconds, Min 600 seconds
       hide_decimal: true
@@ -404,7 +420,7 @@ widgets:
   brightness:
     type: "yasb.brightness.BrightnessWidget"
     options:
-      label: "<span style=\"font-size: 13px; font-family: 'Segoe Fluent Icons'; color: #4ecdc4;\">\ue706</span> {percent}%"
+      label: "<span style=\"font-size: 12px; font-family: 'Segoe Fluent Icons'; color: #4ecdc4;\">\ue706</span> {percent}%"
       label_alt: "Bri: {percent}%"
       tooltip: true
       scroll_step: 5
