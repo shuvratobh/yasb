@@ -369,12 +369,12 @@ widgets:
       label_alt: ""
       hide_empty: true
       callbacks:
-        on_left: "toggle_label"
+        on_left: "toggle_media_menu"
         on_middle: "do_nothing"
         on_right: "toggle_play_pause"
       max_field_size:
-        label: 100
-        label_alt: 100
+        label: 30
+        label_alt: 30
       show_thumbnail: true
       controls_only: false
       controls_left: true
@@ -391,8 +391,18 @@ widgets:
         enabled: true
         update_interval_ms: 20
         style: "left"
-        separator: "    |    "
+        separator: "              "
         label_padding: 10
+      media_menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        thumbnail_size: 120
+        alignment: "center"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
 
   disk:
     type: "yasb.custom.CustomWidget"
